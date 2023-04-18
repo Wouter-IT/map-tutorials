@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+#logo {
+    height: 100px;
+    width:  100px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 250px;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+    background-color: #3d5c51;
+    height: 150px;
+    width: 100%;
+}
+
+#logo, #menu {
+    line-height: 150px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu, #right-most {
+    margin-right: 250px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fffceb;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #fffceb;
+}
+
