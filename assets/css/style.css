@@ -24,9 +24,6 @@ h1, h2 {
 }
 
 #logo {
-    /* display: inline-block;
-    position: relative; */
-    /*    top: 25px; */
     float: left;
     height: 130px;
     width:  130px;
@@ -39,7 +36,7 @@ h1, h2 {
     font-size: 250%;
     color: #ffffff;
     letter-spacing: 2px;
-    margin-left: 20px;
+    margin-left: 1%;
 }
 
 /* Menu styling */
@@ -49,7 +46,7 @@ h1, h2 {
     float: right;
     font-size: 120%;
     letter-spacing: 4px;
-    margin-right: 250px;
+    margin-right: 13%;
 }
 
 #logo, #logo-text, #menu {
@@ -110,7 +107,7 @@ h1, h2 {
     background-color: rgba(147,20,11, 0.7);
 
     bottom: 50px;
-    right: 250px;
+    right: 13%;
 
     position: absolute;
 }
