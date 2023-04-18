@@ -83,7 +83,6 @@ h1, h2 {
  color: #ffffff;
 }
 
-
 #hero-background {
  background-image: url(../images/church\ blurred.jpg);
  height: 600px;
@@ -127,6 +126,13 @@ h1, h2 {
     padding-top: 30px;
     width: 50%;
     float: right;
+    position: relative;
+    left: 0.9%;
+}
+
+#video-player {
+    width: 728px; 
+    height: 410px
 }
 
 /* footer elements */
@@ -151,4 +157,19 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #ffffff;
+}
+
+@media screen and (max-width: 1920px) {
+    #video-player {
+        width: 480px;
+        height: 270px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+#logo {
+    display: none;
+}
+
 }
