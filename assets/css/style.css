@@ -74,3 +74,66 @@ h1, h2 {
 .active {
     border-bottom: 2px solid #ffffff;
 }
+
+/* hero image*/
+#hero {
+ height: 600px;
+ overflow: hidden;
+ position: relative;
+ color: #ffffff;
+}
+
+
+#hero-background {
+ background-image: url(../images/church\ blurred.jpg);
+ height: 600px;
+ width: 100%;
+ background-size: cover;
+ background-position: center;
+ margin-top: 10px;
+}
+
+#cover-text {
+    font-size: 200%;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 20px;
+
+    background-color: rgba(147,20,11, 0.7);
+
+    bottom: 50px;
+    right: 250px;
+
+    position: absolute;
+}
+
+/* about elements /*
+
+
+/* footer elements */
+footer {
+    height: 150px;
+    background-color: #3d5c51;
+}
+
+.socials {
+    text-align: center;
+    list-style-type: none;
+}
+
+.socials > li {
+    display: inline;
+    margin-left: 30px;
+}
+
+.socials i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #ffffff;
+}
