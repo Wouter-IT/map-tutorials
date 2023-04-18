@@ -1,26 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     border: none;
   }
 
-#logo {
-    height: 100px;
-    width:  100px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 250px;
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #282a26;
+  }
+
+  /* Header, Logo and background */
+header {
+    background-color: #3d5c51;
 }
 
+h1, h2 {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    color: #282a26;
+}
+
+#logo {
+    /* display: inline-block;
+    position: relative; */
+    /*    top: 25px; */
+    float: left;
+    height: 130px;
+    width:  130px;
+    padding: 10px 0;
+    margin-left: 150px;
+}
+
+#logo-text {
+    display: inline-block;
+    font-size: 250%;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+/* Menu styling */
 #menu {
+    display: inline-block;
+    float: right;
     font-size: 120%;
     letter-spacing: 4px;
-    background-color: #3d5c51;
-    height: 150px;
-    width: 100%;
+    margin-right: 250px;
 }
 
-#logo, #menu {
+#logo, #logo-text, #menu {
     line-height: 150px;
 }
 
@@ -30,16 +61,15 @@
     margin-right: 30px;
 }
 
-#menu, #right-most {
-    margin-right: 250px;
-}
-
 #menu a {
     text-decoration: none;
-    color: #fffceb;
+    color: #ffffff;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #fffceb;
+    border-bottom: 1px solid #ffffff;
 }
 
+.active {
+    border-bottom: 1px solid #ffffff;
+}
