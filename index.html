@@ -49,8 +49,14 @@
                 Click on "Tutorials" and you will find more information there!</p>
             <br>
             <p>If you have any questions don't hesitate to contact me! You can find my mail and links to my socials below.</p>
-            <button type="button" class="quick-nav-button"><a href="maps.html">Maps</a></button>
-            <button type="button" class="quick-nav-button"><a href="tutorial.html">Tutorial</a></button>    
+            <div> <!-- Add credit too https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/ for cursor type & button to other page -->
+                <form>
+                    <button class="quick-nav-button" type="submit" formaction="maps.html">Maps</button>
+                 </form>
+                 <form>
+                    <button class="quick-nav-button" type="submit" formaction="tutorial.html">Tutorial</button>
+                 </form>  
+            </div>
         </div>
         <div id="about-video">
             <iframe id="video-player" src="https://www.youtube.com/embed/6u1mQEf0-YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
