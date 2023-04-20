@@ -4,23 +4,23 @@
     margin: 0;
     padding: 0;
     border: none;
-  }
+}
 
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     color: #282a26;
-  }
+}
 
 
   /* Navigation bar & Logo */
-  h1, h2 {
+h1, h2 {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     color: #282a26;
 }
 
-  header {
+header {
     background-color: #3d5c51;
     height: 150px;
     width: 100%;
@@ -79,7 +79,6 @@ body {
 /* hero image*/
 #hero {
  height: 600px;
- overflow: hidden;
  position: relative;
  color: #ffffff;
 }
@@ -227,5 +226,9 @@ footer {
             left: 70px;
             bottom: 30px;
     }
-
+    /* #hero-background {
+        overflow: unset;
+        margin-top: 5px;
+       } */
+       
 }
