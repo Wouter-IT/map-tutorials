@@ -172,7 +172,7 @@ footer {
     color: #ffffff;
 }
 
-/* responsive design */
+
 @media screen and (max-width: 1920px) {
     #video-player {
         width: 480px;
@@ -181,19 +181,33 @@ footer {
 
 }
 
+/* responsive design medium screens <1300px width */
 @media screen and (max-width: 1200px) {
-#logo {
-    display: none;
+#logo-image {
+    height: 100px;
+    width:  100px;
+    padding-top: 25px;
+    margin-left: 5%;
+ }
+
+ #logo-text {
+    font-size: 200%;
  }
 }
 
+/* responsive design small screens <950px width */
 @media screen and (max-width: 950px) {
     header {
-        height: 100px;
+        height: 90px;
     }
     
     #logo-image {
-        display: none;
+        height: 70px;
+        width: 70px;
+        padding: 5px 0;
+        margin: 0;
+        /* margin-top: 5px; */
+        /* display: none; */
     }
     
     #logo-text {
@@ -205,9 +219,13 @@ footer {
     #menu {
         clear:left;
         float: left;
+        font-size: 100%;
         margin-left: 10px;
         margin-bottom: 20px;
         line-height: 25px;
+        position: relative;
+            left: 70px;
+            bottom: 30px;
     }
 
 }
