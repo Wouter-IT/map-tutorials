@@ -143,6 +143,7 @@ header {
     width: 40%;
     float: right;
     margin-right: 200px;
+    padding-left: 30px;
 }
 
 #video-player {
@@ -194,14 +195,25 @@ footer {
     color: #ffffff;
 }
 
-
-/* @media screen and (max-width: 1920px) {
+/* responsiveness that smaller than average screens */
+@media screen and (max-width: 1550px) {
+    #about-video {
+        margin-right: 100px;
+    }
+    
     #video-player {
-        width: 480px;
-        height: 270px;
+        width: 560px;
+        height: 315px;
     }
 
-} */
+}
+
+@media screen and (max-width: 1250px) {
+    #about-text h1 {
+        font-size: 200%;
+    }
+
+}
 
 /* responsive design medium screens <1300px width */
 @media screen and (max-width: 1200px) {
