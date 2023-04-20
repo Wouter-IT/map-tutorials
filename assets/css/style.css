@@ -149,6 +149,7 @@ header {
 
 #about-text p {
     margin-top: 10px;
+    text-align: justify;
 }
 
 .quick-nav-button {
