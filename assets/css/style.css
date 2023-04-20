@@ -184,6 +184,30 @@ footer {
 @media screen and (max-width: 1200px) {
 #logo {
     display: none;
+ }
 }
+
+@media screen and (max-width: 950px) {
+    header {
+        height: 100px;
+    }
+    
+    #logo-image {
+        display: none;
+    }
+    
+    #logo-text {
+        line-height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #menu {
+        clear:left;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 
 }
