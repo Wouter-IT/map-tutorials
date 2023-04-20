@@ -12,18 +12,21 @@ body {
     color: #282a26;
   }
 
-  /* Header, Logo and background */
-header {
-    background-color: #3d5c51;
-}
 
-h1, h2 {
+  /* Navigation bar & Logo */
+  h1, h2 {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     color: #282a26;
 }
 
-#logo {
+  header {
+    background-color: #3d5c51;
+    height: 150px;
+    width: 100%;
+}
+
+#logo-image {
     float: left;
     height: 130px;
     width:  130px;
@@ -32,18 +35,16 @@ h1, h2 {
 }
 
 #logo-text {
-    display: inline-block;
+    float: left;
     font-size: 250%;
     color: #ffffff;
     letter-spacing: 2px;
     margin-left: 1%;
 }
 
-/* Menu styling */
+/* navigation menu styling */
 
 #menu {
-    display: inline-block;
-    float: right;
     font-size: 120%;
     letter-spacing: 4px;
     margin-right: 13%;
@@ -151,6 +152,7 @@ footer {
     height: 150px;
     width: 100%;
     background-color: #3d5c51;
+    list-style-type: none;
 }
 
 .socials {
