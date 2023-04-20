@@ -116,15 +116,26 @@ h1, h2 {
     height: 600px;
 }
 
+/* credit https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text */
+.about-box {
+    overflow-wrap: break-word;
+}
+
 #about-text {
-    padding-top: 30px;
-    width: 50%;
+    display: inline-block;
+    padding-top: 50px;
+    margin-left: 10%;
+    width: 40%;
     float: left;
 }
 
+#about-text h1 {
+    font-size: 300%;
+}
+
 #about-video {
-    padding-top: 30px;
-    width: 50%;
+    padding-top: 50px;
+    width: 40%;
     float: right;
     position: relative;
     left: 0.9%;
@@ -159,6 +170,7 @@ footer {
     color: #ffffff;
 }
 
+/* responsive design */
 @media screen and (max-width: 1920px) {
     #video-player {
         width: 480px;
