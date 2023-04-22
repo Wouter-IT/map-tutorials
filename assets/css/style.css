@@ -175,6 +175,12 @@ header {
     background-color: rgba(147, 20, 11, 1);
 }
 
+hr {
+    border-bottom: 2px solid #282a26;
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* footer elements */
 footer {
     height: 150px;
