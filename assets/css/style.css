@@ -128,7 +128,7 @@ header {
 
 #about-text {
     float: left;
-    padding-top: 50px;
+    padding-top: 75px;
     margin-left: 10%;
     width: 35%;
 }
@@ -144,7 +144,7 @@ header {
 }
 
 #about-video {
-    padding-top: 50px;
+    padding-top: 75git add .px;
     width: 40%;
     float: right;
     margin-right: 200px;
