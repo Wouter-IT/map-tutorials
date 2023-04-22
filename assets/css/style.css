@@ -198,6 +198,24 @@ hr {
     margin: 0 auto;
 }
 
+.signup-send {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 180%;
+
+    background-color: #282a26;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.signup-send:hover {
+    background-color: #ffffff;
+    color: #282a26;
+    border: 1px solid #282a26;
+    border-radius: 5px;
+}
+
 /* footer elements */
 footer {
     height: 150px;
