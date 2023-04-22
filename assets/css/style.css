@@ -20,6 +20,7 @@ h2 {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     color: #282a26;
+    letter-spacing: 2px;
 }
 
 header {
@@ -40,7 +41,6 @@ header {
     float: left;
     font-size: 250%;
     color: #ffffff;
-    letter-spacing: 2px;
     margin-left: 1%;
 }
 
@@ -135,7 +135,6 @@ header {
 
 #about-text h1 {
     font-size: 280%;
-    letter-spacing: 2px;
 }
 
 #about-text p {
@@ -198,6 +197,13 @@ hr {
     margin: 0 auto;
 }
 
+#fname, #lname, #email {
+    border: 1px solid #282a26;
+    border-radius: 5px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
 .signup-send {
     font-family: "Bebas Neue", sans-serif;
     font-size: 180%;
@@ -215,6 +221,25 @@ hr {
     border: 1px solid #282a26;
     border-radius: 5px;
 }
+
+.signup-reset {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 180%;
+
+    background-color: rgba(147, 20, 11, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.signup-reset:hover {
+    background-color: #ffffff;
+    color: rgba(147, 20, 11, 1);
+    border: 1px solid rgba(147, 20, 11, 1);
+    border-radius: 5px;
+}
+
 
 /* footer elements */
 footer {
