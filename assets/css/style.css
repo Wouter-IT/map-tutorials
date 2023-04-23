@@ -409,6 +409,10 @@ footer {
     margin: 0 auto;
 }
 
+.img-card {
+    position: relative;
+}
+
 .img-card img {
     height: 300px;
     width: 300px;
@@ -424,6 +428,24 @@ footer {
 
 .map-block li {
     list-style-type: none;
+}
+
+.download-button {
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    color: #ffffff;
+    background-color: #3d5c51;
+    padding: 10px;
+    float: left;
+    position: absolute;
+        left: 230px;
+        bottom: 2px;
+}
+
+.download-button:hover {
+    color: rgba(147, 20, 11, 1);
+    background-color: #ffffff;
+    border: 1px solid rgba(147, 20, 11, 1);
 }
 
 /* responsiveness that smaller than average screens */
@@ -510,6 +532,7 @@ footer {
         height: 315px;
     }
 
+/* tutorial page responsiveness */
     #tut-bg {
         height: 1700px;
     }
@@ -535,6 +558,19 @@ footer {
 
     .tut-block {
         margin-bottom: 25px;
+    }
+
+    /* maps page responsiveness */
+    #maps-left {
+        width: 45%;
+    }
+    
+    #maps-right {
+        width: 45%;
+    }
+    
+    #maps-center {
+        width: 100%;
     }
 
 }
@@ -582,6 +618,7 @@ footer {
         padding: 57px 31px;
     }
 
+    /* tutoria page responsiveness */
     #tut-text {
         margin: 0 50px 50px;
     }
@@ -590,6 +627,32 @@ footer {
         width: 360px;
         height: 203px;
     }
+
+    /* maps page responsiveness */
+
+    #maps-header {
+        margin-top: 35px
+    }
+
+    #maps-left {
+        float: none;
+        width: 100%;
+        margin-left: 20%;
+
+    }
+    
+    #maps-right {
+        float: none;
+        width: 100%;
+        margin-left: 20%;
+    }
+    
+    #maps-center {
+        margin-left: 20%;
+    }
+    
+
+
 
 }
 
@@ -629,6 +692,20 @@ footer {
         width: 250px;
         height: 141px;
     }
+
+    #maps-left {
+        margin-left: 15%;
+
+    }
+    
+    #maps-right {
+        margin-left: 15%;
+    }
+    
+    #maps-center {
+        margin-left: 15%;
+    }
+    
 }
 
 /* responsive design very tiny screens <400px width */
@@ -707,4 +784,20 @@ footer {
         font-size: 130%;
     }
 
+    #maps-overview {
+    margin: 0 100px 0 25px;
+    }
+
+    #maps-left {
+        margin-left: 0;
+
+    }
+    
+    #maps-right {
+        margin-left: 0;
+    }
+    
+    #maps-center {
+        margin-left: 0;
+    }
 }
