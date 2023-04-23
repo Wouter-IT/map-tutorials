@@ -272,7 +272,7 @@ hr {
 /* footer elements */
 footer {
     bottom: 0;
-    height: 150px;
+    height: 140px;
     width: 100%;
     background-color: #3d5c51;
     list-style-type: none;
@@ -290,8 +290,17 @@ footer {
 
 .socials i {
     font-size: 160%;
-    padding: 62px;
+    padding: 57px 62px;
     color: #ffffff;
+}
+
+#email-footer {
+    background-color: #3d5c51;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 10px;
 }
 
 /* responsiveness that smaller than average screens */
@@ -397,7 +406,7 @@ footer {
     }
 
     .socials i {
-        padding: 62px 31px;
+        padding: 57px 31px;
     }
 
 }
@@ -467,6 +476,6 @@ footer {
     }
 
     .socials i {
-        padding: 62px 16px;
+        padding: 57px 16px;
     }
 }
