@@ -327,7 +327,7 @@ footer {
     margin-top: 5px;
 }
 
-#tut-section-header {
+.tut-section-header {
     font-size: 300%;
     text-align: center;
     margin-bottom: 25px;
@@ -385,11 +385,12 @@ footer {
 #tut-video-player {
     display: block;
     margin: 0 auto;
-    padding-top: 50px
 }
 
 /* responsiveness that smaller than average screens */
 @media screen and (max-width: 1550px) {
+    
+    /* about section responsiveness */
     #about-video {
         margin-right: 100px;
     }
@@ -399,10 +400,31 @@ footer {
         height: 315px;
     }
 
+    /* tutorial responsiveness */
+    #tut-left {
+        float: left;
+        width: 45%;
+        padding: 30px 0;
+    }
+    
+    #tut-right {
+        float: right;
+        width: 45%;
+        padding: 30px 0;
+    }
+    
+    #tut-center {
+    display: none;
+    }
+
 }
 
 /* responsive design for medium screens <1300px width */
 @media screen and (max-width: 1300px) {
+    #logo-text {
+        font-size: 200%;
+    }
+
     #about-text h1 {
         font-size: 200%;
     }
@@ -449,12 +471,33 @@ footer {
         height: 315px;
     }
 
-}
-
-@media screen and (max-width: 1300px) {
-    #logo-text {
-        font-size: 200%;
+    #tut-bg {
+        height: 1700px;
     }
+
+    #tut-left, #tut-right {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .tut-left-header {
+        text-align: left;
+    }
+
+    .tut-block {
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    #tut-text {
+        margin: 0 100px 50px;
+    }
+
+    .tut-block {
+        margin-bottom: 25px;
+    }
+
 }
 
 /* responsive design small screens <950px width */
@@ -500,6 +543,15 @@ footer {
         padding: 57px 31px;
     }
 
+    #tut-text {
+        margin: 0 50px 50px;
+    }
+
+    #tut-video-player {
+        width: 360px;
+        height: 203px;
+    }
+
 }
 
 /* responsive design tiny screens <650px width */
@@ -521,10 +573,27 @@ footer {
         width: 360px;
         height: 203px;
     }
+
+    #tut-bg {
+        height: 1650px;
+    }
+
+    #tut-text {
+        padding: 50px;
+    }
+
+    .tut-section-header {
+        font-size: 200%;
+    }
+
+    #tut-video-player {
+        width: 250px;
+        height: 141px;
+    }
 }
 
 /* responsive design very tiny screens <400px width */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     #logo-image {
         display: none;
     }
@@ -555,7 +624,7 @@ footer {
     }
 
     #about {
-        height: 800px;
+        height: 950px;
     }
 
     .quick-nav-button {
@@ -569,15 +638,34 @@ footer {
         height: 100px;
     }
 
-    #about-video {
-        display: none;
-    }
-
     .video-player {
-        display: none;
+        width: 250px;
+        height: 141px;
     }
 
     .socials i {
         padding: 57px 16px;
     }
+
+    #tut-bg {
+        height: 1600px;
+    }
+
+    #tut-text {
+        padding: 25px;
+        margin: 0;
+    }
+
+    .tut-section-header {
+        font-size: 150%;
+    }
+
+    .tut-hr {
+        display: none;
+    }
+
+    .tut-block > h2 {
+        font-size: 130%;
+    }
+
 }
