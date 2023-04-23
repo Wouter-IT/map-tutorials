@@ -8,3 +8,12 @@ You can safely delete this README.md file, or change it for your own project. Pl
 
 Add credit to love-running project for icon script, nav bar funcitonality
 credit fontawesome for icons
+
+
+
+TO DO:
+
+FIX IMAGES IN THE MAPS TAB (host them on imgur?)
+FIX RESPONSIVENESS ISSUE WITH THE VIDEO ON THE HOMEPAGE WHEN VIEWING IT ON A PHONE
+
+ALSO TEST ON LAPTOP
