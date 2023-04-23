@@ -409,9 +409,12 @@ footer {
     #logo-text {
         font-size: 170%;
     }
+
+    #about {
+    height: 950px;
+    }
     
     #video-player {
-        padding: 20px 0;
         width: 360px;
         height: 203px;
     }
@@ -419,9 +422,44 @@ footer {
 
 /* responsive design very tiny screens <400px width */
 @media screen and (max-width: 400px) {
+    #logo-image {
+        display: none;
+    }
+
+    #logo-text {
+        margin-left: 20px;
+    }
+
+    #menu {
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    #cover-text {
+        font-size: 160%;
+    
+        width: 210px;
+        height: 150px;
+    
+        padding-top: 40px;
+        padding-left: 20px;
+    
+        bottom: 50px;
+        right: 13%;
+    
+        position: absolute;
+    }
+
+    #about {
+        height: 800px;
+    }
+
     #video-player {
-        padding-top: 20px;
-        width: 300px;
-        height: 163px;
+        display: none;
+    }
+
+    .socials i {
+        padding: 62px 16px;
     }
 }
