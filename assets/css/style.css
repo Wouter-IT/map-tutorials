@@ -158,8 +158,6 @@ header {
     padding: 5px 10px;
     border-radius: 5px;
     margin: 20px 30px;
-    /* margin-top: 20px;
-    margin-right: 30px; */
     cursor: pointer;
 
     font-family: "Bebas Neue", sans-serif;
@@ -464,6 +462,17 @@ footer {
 
     #about {
         height: 800px;
+    }
+
+    .quick-nav-button {
+        float: left;
+        font-size: 150%;
+    }
+
+    #button-box {
+        padding: 25px 0;
+        width: 300px;
+        height: 100px;
     }
 
     #about-video {
