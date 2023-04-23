@@ -327,7 +327,7 @@ footer {
     margin-top: 5px;
 }
 
-.tut-section-header {
+.section-header {
     font-size: 300%;
     text-align: center;
     margin-bottom: 25px;
@@ -582,7 +582,7 @@ footer {
         padding: 50px;
     }
 
-    .tut-section-header {
+    .section-header {
         font-size: 200%;
     }
 
@@ -656,7 +656,7 @@ footer {
         margin: 0;
     }
 
-    .tut-section-header {
+    .section-header {
         font-size: 150%;
     }
 
