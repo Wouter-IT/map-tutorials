@@ -51,9 +51,7 @@ header {
     margin-right: 13%;
 }
 
-#logo,
-#logo-text,
-#menu {
+#logo, #logo-text, #menu {
     line-height: 150px;
 }
 
@@ -62,7 +60,7 @@ header {
     list-style-type: none;
 }
 
-#menu-margin {
+.menu-margin {
     margin-right: 30px;
 }
 
@@ -132,7 +130,7 @@ header {
     width: 35%;
 }
 
-#about-text h1 {
+#about-text h2 {
     font-size: 280%;
 }
 
@@ -168,7 +166,7 @@ header {
     color: #ffffff;
 }
 
-#about-nav {
+.about-nav {
     float: right;
 }
 
