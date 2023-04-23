@@ -10,11 +10,6 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     color: #282a26;
-
-    /* Credit https://www.30secondsofcode.org/articles/s/css-footer-at-the-bottom/#:~:text=You%20can%20use%20flexbox%20to,and%20flex%2Ddirection%3A%20column%20. Helps to keep footer at the bottom of the screen (footer has margin 0 auto) */
-    /* min-height: 100vh;
-    display: flex;
-    flex-direction: column; */
 }
 
 
@@ -121,7 +116,7 @@ header {
 
 /* about elements */
 #about {
-    height: 600px;
+    height: 650px;
     width: 100%;
 }
 
@@ -269,6 +264,11 @@ hr {
     margin-top: 35vh;
 }
 
+#confirm-footer {
+    position: absolute;
+        bottom: 0;
+}
+
 /* footer elements */
 footer {
     bottom: 0;
@@ -276,7 +276,6 @@ footer {
     width: 100%;
     background-color: #3d5c51;
     list-style-type: none;
-    /* margin-top: auto; */
 }
 
 .socials {
@@ -413,6 +412,10 @@ footer {
     #about {
     height: 950px;
     }
+
+    #about-video {
+        margin-top: 150px;
+    }
     
     #video-player {
         width: 360px;
@@ -453,6 +456,10 @@ footer {
 
     #about {
         height: 800px;
+    }
+
+    #about-video {
+        display: none;
     }
 
     #video-player {
