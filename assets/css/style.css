@@ -147,7 +147,7 @@ header {
     padding-left: 30px;
 }
 
-#video-player {
+.video-player {
     width: 720px;
     height: 405px;
 
@@ -326,6 +326,7 @@ footer {
 #tut-section-header {
     font-size: 300%;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 #tut-left {
@@ -364,6 +365,10 @@ footer {
 
 }
 
+.tut-left-header {
+    text-align: right;
+}
+
 .tut-hr {
     width: 100%;
 }
@@ -374,7 +379,7 @@ footer {
         margin-right: 100px;
     }
 
-    #video-player {
+    .video-player {
         width: 560px;
         height: 315px;
     }
@@ -424,7 +429,7 @@ footer {
 
     }
 
-    #video-player {
+    .video-player {
         width: 560px;
         height: 315px;
     }
@@ -497,7 +502,7 @@ footer {
         margin-top: 150px;
     }
     
-    #video-player {
+    .video-player {
         width: 360px;
         height: 203px;
     }
@@ -553,7 +558,7 @@ footer {
         display: none;
     }
 
-    #video-player {
+    .video-player {
         display: none;
     }
 
