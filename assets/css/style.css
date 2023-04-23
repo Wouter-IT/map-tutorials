@@ -22,6 +22,10 @@ h2 {
     letter-spacing: 2px;
 }
 
+.spacer {
+    height: 25px;
+}
+
 header {
     background-color: #3d5c51;
     height: 150px;
@@ -174,7 +178,7 @@ header {
 }
 
 hr {
-    border-bottom: 2px solid #282a26;
+    border-top: 2px solid #282a26;
     width: 80%;
     margin: 0 auto;
 }
@@ -303,7 +307,7 @@ footer {
 /* tutorial page */
 #tut-bg {
     background-image: url(../images/Guildhall\ ground\ floor\ blurred.jpg);
-    height: 1200px;
+    height: 1400px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -314,8 +318,8 @@ footer {
     background-color: #ffffff;
     padding: 75px;
     margin: 0 200px 50px;
-    position: absolute;
-    top: 250px;
+    position: relative;
+    top: 100px;
 }
 
 #tut-text p {
@@ -371,6 +375,17 @@ footer {
 
 .tut-hr {
     width: 100%;
+}
+/* tutorial video player */
+#tut-video {
+    width: 100%;
+    position: relative;
+}
+
+#tut-video-player {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px
 }
 
 /* responsiveness that smaller than average screens */
