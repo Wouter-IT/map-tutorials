@@ -320,6 +320,7 @@ footer {
 
 #tut-text p {
     text-align: justify;
+    margin-top: 5px;
 }
 
 #tut-section-header {
@@ -341,12 +342,13 @@ footer {
 
 #tut-center {
     width: 33%;
+    padding-top: 50px;
     margin: 0 auto;
 }
 
 .tut-block {
     height: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #tut-center-container {
