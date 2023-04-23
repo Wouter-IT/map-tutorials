@@ -405,6 +405,10 @@ footer {
     margin: 0 auto;
 }
 
+.map-block h3 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
 /* responsiveness that smaller than average screens */
 @media screen and (max-width: 1550px) {
     
