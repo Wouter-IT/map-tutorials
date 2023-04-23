@@ -330,7 +330,7 @@ footer {
 .section-header {
     font-size: 300%;
     text-align: center;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 #tut-left {
@@ -387,6 +387,10 @@ footer {
     margin: 0 auto;
 }
 /* maps download page */
+#maps-overview {
+    margin: 0 100px 0 13%;
+}
+
 #maps-left {
     float: left;
     width: 33%;
@@ -410,8 +414,16 @@ footer {
     width: 300px;
 }
 
+.map-block {
+    margin-bottom: 50px;
+}
 .map-block h3 {
     font-family: "Bebas Neue", sans-serif;
+    font-size: 200%;
+}
+
+.map-block li {
+    list-style-type: none;
 }
 
 /* responsiveness that smaller than average screens */
