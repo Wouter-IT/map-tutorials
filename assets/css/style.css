@@ -14,8 +14,7 @@ body {
 
 
 /* Navigation bar & Logo */
-h1,
-h2 {
+h1, h2 {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     color: #282a26;
@@ -48,7 +47,6 @@ header {
 }
 
 /* navigation menu styling */
-
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
@@ -122,7 +120,8 @@ header {
     width: 100%;
 }
 
-/* credit https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text */
+/* Credit to https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text for the overflow-wrap: break-word in order to keep the paragrahp form interfering with
+the video content on the right*/
 .about-box {
     overflow-wrap: break-word;
 }
@@ -307,7 +306,7 @@ footer {
 /* tutorial page */
 #tut-bg {
     background-image: url(../images/Guildhall\ ground\ floor\ blurred.jpg);
-    height: 1400px;
+    height: 1500px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -386,6 +385,7 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
 /* maps download page */
 #maps-overview {
     margin: 0 100px 0 13%;
@@ -430,6 +430,7 @@ footer {
     list-style-type: none;
 }
 
+/* maps download buttons */
 .download-button {
     text-decoration: none;
     font-family: "Bebas Neue", sans-serif;
@@ -501,6 +502,7 @@ footer {
         width: 100%;
         height: 900px;
     }
+
     .about-box {
         overflow-wrap: break-word;
     }
@@ -618,7 +620,7 @@ footer {
         padding: 57px 31px;
     }
 
-    /* tutoria page responsiveness */
+    /* tutorial page responsiveness */
     #tut-text {
         margin: 0 50px 50px;
     }
@@ -629,7 +631,6 @@ footer {
     }
 
     /* maps page responsiveness */
-
     #maps-header {
         margin-top: 35px
     }
@@ -650,9 +651,6 @@ footer {
     #maps-center {
         margin-left: 20%;
     }
-    
-
-
 
 }
 
@@ -676,6 +674,7 @@ footer {
         height: 203px;
     }
 
+    /* tutorial page responsiveness */
     #tut-bg {
         height: 1650px;
     }
@@ -692,7 +691,7 @@ footer {
         width: 250px;
         height: 141px;
     }
-
+    /* maps page responsiveness */
     #maps-left {
         margin-left: 15%;
 
@@ -763,6 +762,7 @@ footer {
         padding: 57px 16px;
     }
 
+    /* tutorial page responsiveness */
     #tut-bg {
         height: 1600px;
     }
@@ -783,7 +783,8 @@ footer {
     .tut-block > h2 {
         font-size: 130%;
     }
-
+    
+    /* maps page responsiveness */
     #maps-overview {
     margin: 0 100px 0 25px;
     }
