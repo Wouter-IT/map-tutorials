@@ -449,7 +449,8 @@ footer {
     border: 1px solid rgba(147, 20, 11, 1);
 }
 
-/* responsiveness that smaller than average screens */
+/* responsiveness for slightly smaller than average screens <1550px width */
+/* mainly added for website integrity and structure */
 @media screen and (max-width: 1550px) {
     
     /* about section responsiveness */
@@ -707,7 +708,7 @@ footer {
     
 }
 
-/* responsive design very tiny screens <400px width */
+/* responsive design very tiny screens <450px width */
 @media screen and (max-width: 450px) {
     #logo-image {
         display: none;
