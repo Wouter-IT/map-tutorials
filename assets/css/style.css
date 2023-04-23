@@ -405,6 +405,12 @@ footer {
     margin: 0 auto;
 }
 
+.img-card img {
+    height: 300px;
+    width: 300px;
+}
+
+
 .map-block h3 {
     font-family: "Bebas Neue", sans-serif;
 }
