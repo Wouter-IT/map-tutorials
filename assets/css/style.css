@@ -527,10 +527,15 @@ footer {
         width: 85%;
         height: 375px;
         margin: 0 auto;
-
+        position: relative;
     }
 
     .video-player {
+        /* centring code written by chat gpt */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         width: 560px;
         height: 315px;
     }
