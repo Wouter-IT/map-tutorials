@@ -730,18 +730,10 @@ footer {
     }
 
     #cover-text {
-        font-size: 160%;
-    
-        width: 210px;
-        height: 150px;
-    
-        padding-top: 40px;
-        padding-left: 20px;
-    
-        bottom: 50px;
-        right: 13%;
-    
         position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     #about {
