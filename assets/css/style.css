@@ -635,7 +635,7 @@ footer {
     }
 
     #form-section {
-        height: 600px;
+        height: auto;
         margin: 0 25px;
     }
 
@@ -643,6 +643,9 @@ footer {
         font-size: 200%;
     }
 
+    #signup-form {
+        margin-bottom: 20pxgit ;
+    }
     .socials i {
         padding: 57px 31px;
     }
