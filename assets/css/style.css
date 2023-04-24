@@ -588,6 +588,11 @@ footer {
         margin-bottom: 25px;
     }
 
+    .tut-video{
+        height: 315px;
+        position: relative;
+    }
+
     /* maps page responsiveness */
     #maps-left {
         width: 45%;
@@ -653,6 +658,10 @@ footer {
     /* tutorial page responsiveness */
     #tut-text {
         margin: 0 50px 50px;
+    }
+
+    .tut-video{
+        height: 203px;
     }
 
     #tut-video-player {
