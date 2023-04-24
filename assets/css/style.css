@@ -387,8 +387,9 @@ footer {
 
 /* maps download page */
 #maps-overview {
-    height: 1650px;
-    margin: 0 100px 0 13%;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #maps-left {
@@ -419,7 +420,9 @@ footer {
 }
 
 .map-block {
-    margin-bottom: 50px;
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 }
 .map-block h3 {
     font-family: "Bebas Neue", sans-serif;
@@ -594,6 +597,11 @@ footer {
     }
 
     /* maps page responsiveness */
+    #maps-overview {
+        height: 1650px;
+        padding-right: 50px;
+    }
+    
     #maps-left {
         width: 45%;
         padding-bottom: 0;
@@ -607,18 +615,20 @@ footer {
     #maps-center {
         clear: both;
         width: 100%;
+        height: 400px;
         padding: 0;
     }
 
-    #center-left {
-        width: 45%;
+    #left-center-block {
         float: left;
+        width: 45%;
     }
 
-    #center-right{
-        width: 45%;
+    #right-center-block {
         float: right;
+        width: 45%;
     }
+
 
 }
 
@@ -688,23 +698,34 @@ footer {
         margin-top: 35px
     }
 
+}
+@media screen and (max-width: 750px) {
+    #maps-overview {
+        padding-right: 0;
+        height: 2800px;
+    }
+    
     #maps-left {
         float: none;
         width: 100%;
-        margin-left: 20%;
-
+        padding-top: 0;
     }
     
     #maps-right {
         float: none;
         width: 100%;
-        margin-left: 20%;
-    }
-    
-    #maps-center {
-        margin-left: 20%;
+        padding-top: 0;
     }
 
+    #left-center-block {
+        float: none;
+        width: 100%;
+    }
+
+    #right-center-block {
+        float: none;
+        width: 100%;
+    }
 }
 
 /* responsive design tiny screens <650px width */
@@ -736,20 +757,6 @@ footer {
         width: 250px;
         height: 141px;
     }
-    /* maps page responsiveness */
-    #maps-left {
-        margin-left: 15%;
-
-    }
-    
-    #maps-right {
-        margin-left: 15%;
-    }
-    
-    #maps-center {
-        margin-left: 15%;
-    }
-    
 }
 
 /* responsive design very tiny screens <450px width */
@@ -830,19 +837,7 @@ footer {
     
     /* maps page responsiveness */
     #maps-overview {
-    margin: 0 100px 0 25px;
+    width: 100%;
     }
 
-    #maps-left {
-        margin-left: 0;
-
-    }
-    
-    #maps-right {
-        margin-left: 0;
-    }
-    
-    #maps-center {
-        margin-left: 0;
-    }
 }
