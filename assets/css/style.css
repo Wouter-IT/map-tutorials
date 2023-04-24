@@ -299,7 +299,10 @@ footer {
 .confirm-title {
     text-align: center;
     font-size: 300%;
-    margin-top: 35vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #confirm-footer {
@@ -637,7 +640,6 @@ footer {
         width: 45%;
     }
 
-
 }
 
 /* responsive design small screens <950px width */
@@ -681,7 +683,7 @@ footer {
     }
 
     #signup-form {
-        margin-bottom: 20pxgit;
+        margin-bottom: 20px;
     }
 
     .socials i {
