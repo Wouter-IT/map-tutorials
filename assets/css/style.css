@@ -596,22 +596,28 @@ footer {
     /* maps page responsiveness */
     #maps-left {
         width: 45%;
+        padding-bottom: 0;
     }
     
     #maps-right {
         width: 45%;
+        padding-bottom: 0;
     }
     
     #maps-center {
+        clear: both;
         width: 100%;
-    }
-
-    #maps-center .map-block {
-        float: left;
+        padding: 0;
     }
 
     #center-left {
-        margin-right: 15%;
+        width: 45%;
+        float: left;
+    }
+
+    #center-right{
+        width: 45%;
+        float: right;
     }
 
 }
