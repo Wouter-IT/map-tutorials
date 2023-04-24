@@ -254,7 +254,6 @@ hr {
 
 /* footer elements */
 footer {
-    bottom: 0;
     height: 140px;
     width: 100%;
     background-color: #3d5c51;
@@ -388,6 +387,7 @@ footer {
 
 /* maps download page */
 #maps-overview {
+    height: 1650px;
     margin: 0 100px 0 13%;
 }
 
@@ -519,7 +519,7 @@ footer {
     }
 
     .about-nav {
-    float: left;
+        float: left;
     }
 
     #button-box {
@@ -557,7 +557,7 @@ footer {
     }
 
         #line-break {
-    padding-top: 20px; 
+        padding-top: 20px; 
     }
     
 /* tutorial page responsiveness */
@@ -604,6 +604,14 @@ footer {
     
     #maps-center {
         width: 100%;
+    }
+
+    #maps-center .map-block {
+        float: left;
+    }
+
+    #center-left {
+        margin-right: 15%;
     }
 
 }
