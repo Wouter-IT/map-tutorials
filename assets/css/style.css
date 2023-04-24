@@ -539,9 +539,9 @@ footer {
 
     #about-video {
         float: none;
-        padding-top: 50px;
+        padding: 0;
         width: 85%;
-        height: 375px;
+        height: 315px;
         margin: 0 auto;
         position: relative;
     }
@@ -556,6 +556,10 @@ footer {
         height: 315px;
     }
 
+        #line-break {
+    padding-top: 20px; 
+    }
+    
 /* tutorial page responsiveness */
     #tut-bg {
         height: 1700px;
@@ -683,10 +687,6 @@ footer {
     #logo-text {
         font-size: 170%;
     }
-
-    #about {
-    height: 950px;
-    }
     
     .video-player {
         width: 360px;
@@ -749,10 +749,6 @@ footer {
         transform: translate(-50%, -50%);
     }
 
-    #about {
-        height: 950px;
-    }
-
     .quick-nav-button {
         float: left;
         font-size: 150%;
@@ -768,11 +764,18 @@ footer {
         width: 270px;
     }
 
+    #about-video {
+        height: 141px;
+    }
+
     .video-player {
         width: 250px;
         height: 141px;
     }
 
+    #line-break {
+        visibility: hidden;
+    }
     .socials i {
         padding: 57px 16px;
     }
