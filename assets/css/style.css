@@ -14,7 +14,8 @@ body {
 
 
 /* Navigation bar & Logo */
-h1, h2 {
+h1,
+h2 {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     color: #282a26;
@@ -53,7 +54,9 @@ header {
     margin-right: 13%;
 }
 
-#logo, #logo-text, #menu {
+#logo,
+#logo-text,
+#menu {
     line-height: 150px;
 }
 
@@ -204,7 +207,9 @@ hr {
     font-size: 130%;
 }
 
-#fname, #lname, #email {
+#fname,
+#lname,
+#email {
     border: 1px solid #282a26;
     border-radius: 5px;
     line-height: 20px;
@@ -299,7 +304,7 @@ footer {
 
 #confirm-footer {
     position: absolute;
-        bottom: 0;
+    bottom: 0;
 }
 
 /* tutorial page */
@@ -374,6 +379,7 @@ footer {
 .tut-hr {
     width: 100%;
 }
+
 /* tutorial video player */
 #tut-video {
     width: 100%;
@@ -424,6 +430,7 @@ footer {
     margin: 0 auto;
     padding-bottom: 50px;
 }
+
 .map-block h3 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 200%;
@@ -442,8 +449,8 @@ footer {
     padding: 10px;
     float: left;
     position: absolute;
-        left: 230px;
-        bottom: 2px;
+    left: 230px;
+    bottom: 2px;
 }
 
 .download-button:hover {
@@ -455,7 +462,7 @@ footer {
 /* responsiveness for slightly smaller than average screens <1550px width */
 /* mainly added for website integrity and structure */
 @media screen and (max-width: 1550px) {
-    
+
     /* about section responsiveness */
     #about-video {
         margin-right: 100px;
@@ -472,15 +479,15 @@ footer {
         width: 45%;
         padding: 30px 0;
     }
-    
+
     #tut-right {
         float: right;
         width: 45%;
         padding: 30px 0;
     }
-    
+
     #tut-center {
-    display: none;
+        display: none;
     }
 
 }
@@ -518,7 +525,7 @@ footer {
         width: 85%;
         height: auto;
         margin: 0 auto;
-        
+
     }
 
     .about-nav {
@@ -559,16 +566,17 @@ footer {
         height: 315px;
     }
 
-        #line-break {
-        padding-top: 20px; 
+    #line-break {
+        padding-top: 20px;
     }
-    
-/* tutorial page responsiveness */
+
+    /* tutorial page responsiveness */
     #tut-bg {
         height: 1700px;
     }
 
-    #tut-left, #tut-right {
+    #tut-left,
+    #tut-right {
         width: 100%;
         float: left;
         padding: 0;
@@ -591,7 +599,7 @@ footer {
         margin-bottom: 25px;
     }
 
-    .tut-video{
+    .tut-video {
         height: 315px;
         position: relative;
     }
@@ -601,17 +609,17 @@ footer {
         height: 1650px;
         padding-right: 50px;
     }
-    
+
     #maps-left {
         width: 45%;
         padding-bottom: 0;
     }
-    
+
     #maps-right {
         width: 45%;
         padding-bottom: 0;
     }
-    
+
     #maps-center {
         clear: both;
         width: 100%;
@@ -668,13 +676,14 @@ footer {
         margin: 0 25px;
     }
 
-    #form-div > h2 {
+    #form-div>h2 {
         font-size: 200%;
     }
 
     #signup-form {
-        margin-bottom: 20pxgit ;
+        margin-bottom: 20pxgit;
     }
+
     .socials i {
         padding: 57px 31px;
     }
@@ -684,7 +693,7 @@ footer {
         margin: 0 50px 50px;
     }
 
-    .tut-video{
+    .tut-video {
         height: 203px;
     }
 
@@ -699,18 +708,19 @@ footer {
     }
 
 }
+
 @media screen and (max-width: 750px) {
     #maps-overview {
         padding-right: 0;
         height: 2800px;
     }
-    
+
     #maps-left {
         float: none;
         width: 100%;
         padding-top: 0;
     }
-    
+
     #maps-right {
         float: none;
         width: 100%;
@@ -730,11 +740,11 @@ footer {
 
 /* responsive design tiny screens <650px width */
 @media screen and (max-width: 650px) {
-    
+
     #logo-text {
         font-size: 170%;
     }
-    
+
     .video-player {
         width: 360px;
         height: 203px;
@@ -809,6 +819,7 @@ footer {
     #line-break {
         visibility: hidden;
     }
+
     .socials i {
         padding: 57px 16px;
     }
@@ -831,13 +842,13 @@ footer {
         display: none;
     }
 
-    .tut-block > h2 {
+    .tut-block>h2 {
         font-size: 130%;
     }
-    
+
     /* maps page responsiveness */
     #maps-overview {
-    width: 100%;
+        width: 100%;
     }
 
 }

@@ -9,6 +9,9 @@ You can safely delete this README.md file, or change it for your own project. Pl
 Add credit to love-running project for icon script, nav bar funcitonality
 credit fontawesome for icons
 
+Credit tools:
+https://cloudconvert.com/jpg-to-webp
+chat gpt
 
 
 TO DO:
