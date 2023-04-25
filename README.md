@@ -59,10 +59,45 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 
 [Back to top](<#contents>)
 
-# Feature
+# Features
+### Logo & Navigation (All-pages)
+- Located at the very top of every page is a fully responsive navigation menu that allows for easy navigation across the site. 
+- The FakeFairytale gnome logo is also equipped with a link that returns the user to the home page, as is common on many websites. 
+- The logo image disappears on smaller devices as to not take up too much space when limited is available.
+
+![screenshot of nav bar](assets/images/readme/nav-bar.jpg)
+
+### Hero (Home-page)
+- Located just below the navigation is an image and welcome message. The image helps set the tone for the page and is one of the most popular maps made by FakeFairytale. It is blurred out as to no distract form the message.
+- The welcome message immediately states the value the website provides. It is aimed at making you a better map-maker and helps the visitor understand the intend and purpose of the website.
+
+![screenshot of website hero image](assets/images/readme/hero.JPG)
+
+### About (Home-page)
+- A two collumn about section introduces the visitor to the FakeFairytale brand.
+- The left-hand text column states the core problems the visitor is experiencing in order captivate them and capture their attention. It then proceeds to introduce the brand to those unfamiliar.
+- Two quick navigation buttons help guide the visitor to their destination. They are designed to specifically help the visitor that already knows what they are visiting the page for.
+- The right-hand-side video introduces those unfamiliar to the FakeFairytale YouTube Channel with one of it's most popular videos. It also provide knowledge for those who may already know/have Dungeondraft but aren't proficient with it yet.
+
+![screenshot of the about section](assets/images/readme/about-section.jpg)
+
+### Sign-up form (Home-page)
+- A sign-up form let's the visitor register for a maillist that will provide updates on what it happening with the FakeFairytale Brand. It is designed for those who are hooked by the content so far and would like to learn more over the coming period.
+- Currently there is no actually mail-list, nor is the form hooked up to any sort of registration system.
+
+![screenshot of sign-up form](assets/images/readme/sign-up-form.jpg)
+
+### Footer (All-pages)
+- The site footer is always located at the bottom of the page and contains both the social media links & an e-mail adres visitors can contact.
+- The Social Media links are enhanced with icons and open in separate tabs wen clicked. They're there for those who do not wish to sign up to a newsletter or are looking to do so through a different medium.
+- Email is added to allow people to contact FakeFairytale directly.
+
+![screenshot of website footer](assets/images/readme/footer.jpg)
 
 ## Future Feature
-- 
+- A sticky navigation bar
+- back to top button in the bottom right corner
+- form that actually registeres applicants and pushes data to a server.
 
 Credit tools:
 https://fonts.google.com/
