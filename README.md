@@ -57,9 +57,24 @@ FakeFairytale Battle Maps is a Youtube channel and content creator in the digita
 
 ![image of the FakeFairytale Website on different devices.](assets/images/readme/ffbm%20screens.jpg)
 
-# Table of Contents
+# Contents
 
 TO BE FILLED IN
 
 # User Experience (UX)
-[Back to top](#README)
+- As a visitor I want to immediatly understand the purpose of the website upon loading. 
+- As a visitor I want to be able to navigate through the site conveniently.
+- As a visitor I want to see what kind of content FakeFairytale creates.
+- As a visitor I want to have material to improve my map-making skills at my disposal.
+- As a visitor I want to know how to purchase DD.
+- As a visitor I want to be able to contact FakeFairytale.
+- As a visitor I want to be able to find more videos & tutorials.
+- As a visitor I want to download maps made by FakeFairytale.
+
+
+[Back to top](<#contents>)
+
+## Wireframes
+
+The Wireframes for FakeFairytale Battle Maps were made using [Balsamiq](https://balsamiq.com) as the UI proved to be intuitive and easy to grasp. There are wireframes for three separate devices; Full-Screen, Tablet and Mobile.
+The final design of the website varies slightly from the wireframes in some regards as during the process it was discovered the design could be simplified without the loss of clarity.
