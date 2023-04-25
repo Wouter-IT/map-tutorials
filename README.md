@@ -94,10 +94,37 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 
 ![screenshot of website footer](assets/images/readme/footer.jpg)
 
+### Confirmation message (Confirm-page)
+- The confirmation page provide a message to let the visitor know their action of filling in the form was successful. It also helps them understand they can now navigate to another page if so desired.
+
+![screenshot of confirmation message](assets/images/readme/confirmation.jpg)
+
+### Tutorial
+- An easy to follow step by step guide to downlaoding DD. Fully responsive to align below each other when viewing on smaller devices.
+- Designed to help the visitor find their way through the instillation process of DD, which can be a bit confusing at times.
+- Final step in the process helps guide visitor to the video below.
+
+![screenshot of dungeondraft installation guide](assets/images/readme/tutorial.JPG)
+
+### Tutorial Video
+- Underneath the DD installation Tutorial there is a special video geared towards beginners in the DD software environemt. 
+- The video allows the visitor to immediatly start their learnig journey without having to switch sites.
+
+![screenshot of the get started video](assets/images/readme/get-started.jpg)
+
+### Maps
+- On this page the visitor finds an overview of maps avaiable for download.
+- Designed to give an easy birds-eye view of the options available with a clear call to action if they want to download the maps. Also provides basic information about the map.
+- Can easily be expanded upon.
+- The download buttons are direct download links that allow for immediate downloading without any more user input.
+
+![screenshot of map overview page](assets/images/readme/maps.jpg)
+
 ## Future Feature
-- A sticky navigation bar
+- A sticky navigation and footer bar
 - back to top button in the bottom right corner
 - form that actually registeres applicants and pushes data to a server.
+- back to home button on confirmation screen
 
 Credit tools:
 https://fonts.google.com/
