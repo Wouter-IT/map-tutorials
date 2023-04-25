@@ -47,3 +47,12 @@ CSS
 No errors were found when passing through the official (Jigsaw) validator
 Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+---------------------------------------------------------------------------------------------------------------------
+#FakeFairytale Battle Maps
+
+FakeFairytale Battle Maps is a Youtube channel and content creator in the digital map-making space. It is specifically geared towards user of the DungeonDraft( Henceforth referred to as "DD") software, or those who are in the consideration process of purchasing DD. The website is designed to familiarize people with the FakeFairytale YouTube Channel, Tutorials and Maps and offers content on these three respective fields. FakeFairytale Battle Maps will help people find their way into the world of digital map making using DD.
+
+*Hello and welcome! My name is FakeFairytale and today I'm going to guide you through the website of FakeFairytale Battle Maps.*
+
+![image of the FakeFairytale Website on different devices.](assets/images/readme/ffbm%20screens.jpg)
