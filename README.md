@@ -7,7 +7,7 @@ FakeFairytale Battle Maps is a Youtube channel and content creator in the digita
 
 *Hello and welcome! My name is FakeFairytale and today I'm going to guide you through the website of* <a href="https://wouter-it.github.io/maps-tutorial/" target="_blank">*FakeFairytale Battle Maps*</a>.
 
-![image of the FakeFairytale Website on different devices.](assets/images/readme/ffbm%20screens.jpg)
+![image of the FakeFairytale Website on different devices.](assets/images/readme/ffbm-screens.jpg)
 
 # Contents
 
