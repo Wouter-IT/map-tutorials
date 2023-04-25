@@ -53,7 +53,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 FakeFairytale Battle Maps is a Youtube channel and content creator in the digital map-making space. It is specifically geared towards user of the DungeonDraft( Henceforth referred to as "DD") software, or those who are in the consideration process of purchasing DD. The website is designed to familiarize people with the FakeFairytale YouTube Channel, Tutorials and Maps and offers content on these three respective fields. FakeFairytale Battle Maps will help people find their way into the world of digital map making using DD.
 
-*Hello and welcome! My name is FakeFairytale and today I'm going to guide you through the website of FakeFairytale Battle Maps.*
+*Hello and welcome! My name is FakeFairytale and today I'm going to guide you through the website of* <a href="https://wouter-it.github.io/maps-tutorial/" target="_blank">*FakeFairytale Battle Maps*</a>.
 
 ![image of the FakeFairytale Website on different devices.](assets/images/readme/ffbm%20screens.jpg)
 
@@ -76,5 +76,11 @@ TO BE FILLED IN
 
 ## Wireframes
 
-The Wireframes for FakeFairytale Battle Maps were made using [Balsamiq](https://balsamiq.com) as the UI proved to be intuitive and easy to grasp. There are wireframes for three separate devices; Full-Screen, Tablet and Mobile.
+The Wireframes for FakeFairytale Battle Maps were made using [Balsamiq](https://balsamiq.com) as the UI proved to be intuitive and easy to grasp. There are wireframes for two separate devices; Full-Screen and Mobile.
 The final design of the website varies slightly from the wireframes in some regards as during the process it was discovered the design could be simplified without the loss of clarity.
+
+![sketch design of FakeFairytale Battle maps website on computer.](assets/images/readme/computer-screen-adjusted.jpg)
+
+![sketch design of FakeFairytale Battle maps website on mobile.](assets/images/readme/mobile-adjusted.jpg)
+
+[Back to top](<#contents>)
