@@ -39,9 +39,11 @@
 
     <!-- Main hero image and textblock stating the purpose of the website -->
     <section id="hero">
-        <div id="hero-background"></div>
-        <div id="cover-text">
-            <h3>Become a better map-maker in Dungeondraft!</h3>
+        <div id="hero-container">
+            <div id="hero-background"></div>
+                <div id="cover-text">
+                    <h3 id="cover-header">Become a better map-maker in Dungeondraft!</h3>
+                </div>
         </div>
     </section>
     <!-- About section with information on the channel and most popular video -->
@@ -67,10 +69,10 @@
                 <!-- Add credit too https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/ for cursor type & button to other page -->
                 <div id="buttons">
                     <form>
-                        <button class="quick-nav-button about-nav" type="submit" formaction="maps.html">Maps</button>
+                        <button class="quick-nav-button about-nav" id="quick-nav-left" type="submit" formaction="maps.html">Maps</button>
                     </form>
                     <form>
-                        <button class="quick-nav-button about-nav" type="submit" formaction="tutorial.html">Tutorial</button>
+                        <button class="quick-nav-button about-nav" id="quick-nav-right" type="submit" formaction="tutorial.html">Tutorial</button>
                     </form>
                 </div>
             </div>

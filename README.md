@@ -104,4 +104,6 @@ https://fonts.google.com/
 https://typ.io/ for finding matching font
 https://coolors.co/ for color palate
 https://cloudconvert.com/jpg-to-webp
-chat gpt
+
+Pages used:
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text for the overflow-wrap: break-word in order to keep the paragrahp form interfering with the video content on the right
