@@ -120,17 +120,64 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 
 ![screenshot of map overview page](assets/images/readme/maps.jpg)
 
+[Back to top](<#contents>)
+
 ## Future Feature
-- A sticky navigation and footer bar
-- back to top button in the bottom right corner
-- form that actually registeres applicants and pushes data to a server.
-- back to home button on confirmation screen
+- A sticky navigation and footer bar to ensure navigation & Social Meadia links are always available.
+- Back to top button in the bottom right corner of each page to ease navigation.
+- Make sure the Sign-up Form actually registers applicants and pushes data to a server.
+- Back to home button on confirmation screen
+- Additional Maps to download on the Maps page with the option to donate towards the creator.
+
+[Back to top](<#contents>)
+
+# Technologies & Tools used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5/) - takes care of the structure and backbone of the content & website.
+- [CSS3](https://www.educba.com/what-is-css3/) - facilitates the styling of content on the page.
+- [Balsamiq](https://balsamiq.com/wireframes/) - used to create sketches/wireframes for the website.
+- [Gitpod](https://www.gitpod.io/#get-started) - used to deploy adn edit the website.
+- [Github](https://github.com/) - used to host website repository.
+
+[Back to top](<#contents>)
+
+# Testing
+Please refer to the testing document [**_here_**](TESTING.md) for more information on the testing process for FakeFairytale Battle Maps.
+
+[Back to top](<#contents>)
+
+### **How to deploy the project yourself**
+The website was deployed to GitHub pages. In order to replicate the website in your own environment please follow the steps below:
+  1. In the GitHub repository which you can find throug [this link](https://github.com/Wouter-IT/maps-tutorial) navigate to the **Settings** tab.
+  ![screenshot of GitHub repository with settings highlighted](assets/images/readme/step1.jpg)
+  2. In settings, navigate to the **Pages** tab on the left hand side in the section "Code and automation".
+  3. Under **Source**, set the branch to **main** and then click **save**.
+  ![screenshot of "pages" and branch section highlighted](assets/images/readme/step3.jpg)
+  4. Upon selection, the page will automatically refresh. A ribbon display will indicate the deployment has been successful.
+
+### **To copy the repository in GitHub**
+A copy of the repository can be made by forking the GitHub account. You can view adn alter this copy without it affecting the original repository. You can fork the repository by;
+1. Logging in to your GitHub and locate the [repository](https://github.com/Wouter-IT/maps-tutorial).
+2. On the top right corner of the page is a button called **'Fork'**. Clicking on the button creates a copy of the original repository in your own GitHub Account.
+![screenshot on how to fork in github](assets/images/readme/fork.jpg)
+
+### **To create a local clone of this project**
+You can also create a local copy of the project using the following steps:
+1. Open the project repository and make sure you are currently in the **<> Code** tab.
+2. On the right, click on the left of the two buttons named **<> Code**. This will open a dropdwon meny which desplays the URL of the project, copy this URL.
+![screenshot on how to clone](assets/images/readme/local-clone.jpg)
+3. In your IDE of choice, open **Git Bash**.
+4. Change the current working directory to the location where you would like the cloned directory to be.
+5. Type **git clone** and paste the URL copied from GitHub.
+6. Press **enter** and the local clone will be created.
+
 
 Credit tools:
 https://fonts.google.com/
 https://typ.io/ for finding matching font
 https://coolors.co/ for color palate
 https://cloudconvert.com/jpg-to-webp
+
+Credit wawawoods README ad structure and guide to help create my own README
 
 Pages used:
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text for the overflow-wrap: break-word in order to keep the paragrahp form interfering with the video content on the right
