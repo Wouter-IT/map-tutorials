@@ -613,6 +613,12 @@ footer {
         position: relative;
     }
 
+    #tut-video-player {
+        position: unset;
+        display: block;
+        margin: 0 auto;
+    }
+
     /* maps page responsiveness */
     #maps-overview {
         height: 1650px;
@@ -763,7 +769,7 @@ footer {
 
     /* tutorial page responsiveness */
     #tut-bg {
-        height: 1650px;
+        height: 1800px;
     }
 
     #tut-text {
