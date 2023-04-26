@@ -128,6 +128,7 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 - Make sure the Sign-up Form actually registers applicants and pushes data to a server.
 - Back to home button on the confirmation screen
 - Additional Maps to download on the Maps page with the option to donate towards the creator.
+- Support for <350px width screens.
 
 [Back to top](<#contents>)
 
