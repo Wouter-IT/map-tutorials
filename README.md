@@ -177,7 +177,7 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 
 [Back to top](<#contents>)
 
-## Future Feature
+## Future Features
 - A sticky navigation and footer bar to ensure navigation & Social Media links are always available.
 - A "Backto top" button in the bottom right corner of each page to ease navigation.
 - Make sure the Sign-up Form actually registers applicants and pushes data to a server.
@@ -212,11 +212,15 @@ The website was deployed to GitHub pages. In order to replicate the website in y
   ![screenshot of "pages" and branch section highlighted](assets/images/readme/step3.jpg)
   4. Upon selection, the page will automatically refresh. A ribbon display will indicate the deployment has been successful.
 
+[Back to top](<#contents>)
+
 ### **To copy the repository in GitHub**
 A copy of the repository can be made by forking the GitHub account. You can view adn alter this copy without it affecting the original repository. You can fork the repository by;
 1. Logging in to your GitHub and locate the [repository](https://github.com/Wouter-IT/maps-tutorial).
 2. On the top right corner of the page is a button called **'Fork'**. Clicking on the button creates a copy of the original repository in your own GitHub Account.
 ![screenshot on how to fork in github](assets/images/readme/fork.jpg)
+
+[Back to top](<#contents>)
 
 ### **To create a local clone of this project**
 You can also create a local copy of the project using the following steps:
@@ -263,6 +267,8 @@ Upon concluding my research & learning process I decided to leave the code in, h
 - [Tutorialspoint.com](https://www.tutorialspoint.com/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript#:~:text=Use%20the%20download%20attribute%20with,as%20a%20file%20download%20button) for the code on how to create a download button that downloads a file on click.
 - [Stack Overflow](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute) for using a "Title" attribute as alternative for an alt attribute.
 
+[Back to top](<#contents>)
+
 ## Media
 - All images are made and owned by FakeFairytale, the creator of this website.
 
@@ -271,6 +277,7 @@ Upon concluding my research & learning process I decided to leave the code in, h
 # Acknowledgements
 The FakeFairytale Battle Maps page was created as a project for the first milestone of the [Code Institute Full-Stack Development Course](https://codeinstitute.net/nl/full-stack-software-development-diploma/). During the learning process I've received excellent support and guidance from my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) who has been able to keep me focust, confident and made sure my project scope was realistic. I'd like to thank him for his guidance, as well as my wife, who took excellent care of me while I was crunching code.
 
+[Back to top](<#contents>)
 
 # Sign-off
 *And that was it folks, I hope you have enjoyed the tour through the FakeFairytale Battle Maps website. Thank you for reading and if there are any question don't hesitate to contact me. My e-mail is on the website!*
