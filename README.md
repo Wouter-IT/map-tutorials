@@ -10,10 +10,48 @@ FakeFairytale Battle Maps is a Youtube channel and content creator in the digita
 ![image of the FakeFairytale Website on different devices.](assets/images/readme/ffbm-screens.jpg)
 
 # Contents
+[User Experience UX](<#user-experience-ux>)
+  - [User Stories](<#user-stories>)
+  - [Wireframes](<#wireframes>)
+  - [Site Structure](<#site-structure>)
+  - [Design & Color Scheme](<#design-&-color-scheme>)
+    - [Typography](<#typography>)
+    - [Color Palatte](<#color-palatte>)
+[Features](<#features>)
+  - [Current Features](<#current-features>)  
+    - [Logo & Navigation](<#logo-&-navigation>)
+    - [Hero](<#hero>)
+    - [About](<#about>)
+    - [Sign-up form](<#sign-up-form>)
+    - [Footer](<#footer>)
+    - [Confirmation message](<#confirmation-message>)
+    - [Tutorial](<#tutorial>)
+    - [Tutorial Video](<#tutorial-video>)
+    - [Maps](<#maps>)
+  - [Future Features](<#future-features>)
+[Technologies & Tools used](<#technologies-&-tools-used>)
+[Testing](<#testing>)
+[Deployment](<#deployment>)
+  - [How to deploy the project yourself](<#how-to-deploy-the-project-yourself>)
+  - [Copy repo to GitHub](<#to-copy-the-repository-in-github>)
+  - [Create local clone](<#to-create-a-local-clone-of-this-project>)
+  [Comments](<#comments>)
+     - [Regarding Chat GPT Code](<#regarding-chat-gpt-allignment-code>)
+[Credits](<#credits>)
+  - [Content](<#content>)
+  - [Media](<#media>)
+[Acknowledgements](<#acknowledgements>)
+[Sign-off](<#sign-off>)
+
+
+
+
 
 TO BE FILLED IN
 
-# User Experience (UX)
+# User Experience UX
+
+## User Stories
 - As a visitor, I want to immediately understand the purpose of the website upon loading. 
 - As a visitor, I want to be able to navigate through the site conveniently.
 - As a visitor, I want to see what kind of content FakeFairytale creates.
@@ -53,29 +91,32 @@ The typography that were chosen for the project were <a href="https://fonts.goog
 
 ### Color Palette
 
-The color scheme chosen is based on the FakeFairytale brand and the colors it employs in it's YouTube channel and logo. However, as those colors were not necessarily designed for the use of a website some minor changes have been made to address that. The original green-grey color has been darkened slightly to increase contrast. Alternatively the red has been derived from the Gnomes Hat in the logo, and the slightly off-black color has been chosen to better match the soft colors already in the palate.
+The color scheme chosen is based on the FakeFairytale brand and the colors it employs in it's YouTube channel and logo. However, as those colors were not necessarily designed for the use of a website some minor changes have been made to address that. The original green-grey color has been darkened slightly to increase contrast. Alternatively the red has been derived from the Gnomes Hat in the logo, and the slightly off-black color has been chosen to better match the soft colors already in the palatte.
 
 ![screenshot of the green-white contrast and black-white contrast for the website](assets/images/readme/contrast-checker.png)
 
-![screenshot of color palate, feldgrau, white, penn red, jet black](assets/images/readme/color-palate.png)
+![screenshot of color palatte, feldgrau, white, penn red, jet black](assets/images/readme/color-palate.png)
 
 [Back to top](<#contents>)
 
 # Features
-### Logo & Navigation (All-pages)
+
+## Current Features
+
+### Logo & Navigation
 - Located at the very top of every page is a fully responsive navigation menu that allows for easy navigation across the site. 
 - The FakeFairytale gnome logo is also equipped with a link that returns the user to the home page, as is common on many websites. 
 - The logo image disappears on smaller devices as to not take up too much space when limited is available.
 
 ![screenshot of nav bar](assets/images/readme/nav-bar.jpg)
 
-### Hero (Home-page)
+### Hero
 - Located just below the navigation is an image and welcome message. The image helps set the tone for the page and is one of the most popular maps made by FakeFairytale. It is blurred out so as to no distract from the message.
 - The welcome message immediately states the value the website provides. It is aimed at making you a better map-maker and helps the visitor understand the intent and purpose of the website.
 
 ![screenshot of website hero image](assets/images/readme/hero.JPG)
 
-### About (Home-page)
+### About
 - A two collumn about section introduces the visitor to the FakeFairytale brand.
 - The left-hand text column states the core problems the visitor is experiencing in order captivate them and capture their attention. It then proceeds to introduce the brand to those unfamiliar.
 - Two quick navigation buttons help guide the visitor to their destination. They are designed to specifically help the visitor that already knows what they are visiting the page for.
@@ -83,20 +124,20 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 
 ![screenshot of the about section](assets/images/readme/about-section.jpg)
 
-### Sign-up form (Home-page)
+### Sign-up form
 - A sign-up form lets the visitor register for a mail list that will provide updates on what is happening with the FakeFairytale Brand. It is designed for those who are hooked by the content so far and would like to learn more over the coming period.
 - Currently, there is no actual mail list, nor is the form hooked up to any sort of registration system.
 
 ![screenshot of sign-up form](assets/images/readme/sign-up-form.jpg)
 
-### Footer (All-pages)
+### Footer
 - The site footer is always located at the bottom of the page and contains both the social media links & an e-mail address visitors can contact.
 - The Social Media links are enhanced with icons and open in separate tabs when clicked. They're there for those who do not wish to sign up for a newsletter or are looking to do so through a different medium.
 - Email is added to allow people to contact FakeFairytale directly.
 
 ![screenshot of website footer](assets/images/readme/footer.jpg)
 
-### Confirmation message (Confirm-page)
+### Confirmation message
 - The confirmation page provides a message to let the visitor know their action of filling in the form has been successful. It also helps them understand they can now navigate to another page if so desired.
 
 ![screenshot of confirmation message](assets/images/readme/confirmation.jpg)
@@ -148,6 +189,8 @@ Please refer to the testing document [**_here_**](TESTING.md) for more informati
 
 [Back to top](<#contents>)
 
+# Deployment
+
 ### **How to deploy the project yourself**
 The website was deployed to GitHub pages. In order to replicate the website in your own environment please follow the steps below:
   1. In the GitHub repository which you can find through [this link](https://github.com/Wouter-IT/maps-tutorial) navigate to the **Settings** tab.
@@ -193,10 +236,12 @@ Upon concluding my research & learning process I decided to leave the code in, h
 [Back to top](<#contents>)
 
 # Credits
+
+## Content
 - The [Developer Mozilla Webpage on Wrapping text](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text) for "the overflow-wrap: break-word" in order to keep the paragrahp form interferring with the video content on the right of it.
 - My Fonts from [Google Fonts](https://fonts.google.com/).
 - [Typ.io](https://typ.io/) for finding a maching font to Bebas Neue.
-- [Coolors.co](https://coolors.co/) for the color palate.
+- [Coolors.co](https://coolors.co/) for the color palatte.
 - [CloudConvert](https://cloudconvert.com/jpg-to-webp) for converting images to webp format to reduce loading times.
 - [Font Awesome](https://fontawesome.com/) for implementing Icons on the website.
 - Credits to the [Wawawoods project README by Ewan Colquhoun](https://github.com/EwanColquhoun/wawaswoods) to help create and structure my own README. This was a tremendous help.
@@ -206,11 +251,16 @@ Upon concluding my research & learning process I decided to leave the code in, h
 - [Tutorialspoint.com](https://www.tutorialspoint.com/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript#:~:text=Use%20the%20download%20attribute%20with,as%20a%20file%20download%20button) for the code on how to create a download button that downloads a file on click.
 - [Stack Overflow](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute) for using a "Title" attribute as alternative for an alt attribute.
 
+## Media
+- All images are made and owned by FakeFairytale, the creator of this website.
+
 [Back to top](<#contents>)
 
 # Acknowledgements
 The FakeFairytale Battle Maps page was created as a project for the first milestone of the [Code Institute Full-Stack Development Course](https://codeinstitute.net/nl/full-stack-software-development-diploma/). During the learning process I've received excellent support and guidance from my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) who has been able to keep me focust, confident and made sure my project scope was realistic. I'd like to thank him for his guidance, as well as my wife, who took excellent care of me while I was crunching code.
 
+
+# Sign-off
 *And that was it folks, I hope you have enjoyed the tour through the FakeFairytale Battle Maps website. Thank you for reading and if there are any question don't hesitate to contact me. My e-mail is on the website!*
 
 [Back to top](<#contents>)
