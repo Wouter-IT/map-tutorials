@@ -15,8 +15,9 @@ FakeFairytale Battle Maps is a Youtube channel and content creator in the digita
   - [Wireframes](<#wireframes>)
   - [Site Structure](<#site-structure>)
   - [Design & Color Scheme](<#design-&-color-scheme>)
-    - [Typography](<#typography>)
-    - [Color Palatte](<#color-palatte>)
+  - [Typography](<#typography>)
+  - [Color Palatte](<#color-palatte>)
+
 [Features](<#features>)
   - [Current Features](<#current-features>)  
     - [Logo & Navigation](<#logo-&-navigation>)
@@ -29,25 +30,26 @@ FakeFairytale Battle Maps is a Youtube channel and content creator in the digita
     - [Tutorial Video](<#tutorial-video>)
     - [Maps](<#maps>)
   - [Future Features](<#future-features>)
+
 [Technologies & Tools used](<#technologies-&-tools-used>)
+
 [Testing](<#testing>)
+
 [Deployment](<#deployment>)
   - [How to deploy the project yourself](<#how-to-deploy-the-project-yourself>)
   - [Copy repo to GitHub](<#to-copy-the-repository-in-github>)
   - [Create local clone](<#to-create-a-local-clone-of-this-project>)
+  
   [Comments](<#comments>)
      - [Regarding Chat GPT Code](<#regarding-chat-gpt-allignment-code>)
+
 [Credits](<#credits>)
   - [Content](<#content>)
   - [Media](<#media>)
+
 [Acknowledgements](<#acknowledgements>)
+
 [Sign-off](<#sign-off>)
-
-
-
-
-
-TO BE FILLED IN
 
 # User Experience UX
 
