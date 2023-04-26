@@ -170,14 +170,38 @@ You can also create a local copy of the project using the following steps:
 5. Type **git clone** and paste the URL copied from GitHub.
 6. Press **enter** and the local clone will be created.
 
+[Back to top](<#contents>)
 
-Credit tools:
-https://fonts.google.com/
-https://typ.io/ for finding matching font
-https://coolors.co/ for color palate
-https://cloudconvert.com/jpg-to-webp
+# Comments
 
-Credit wawawoods README ad structure and guide to help create my own README
+### Regarding Chat GPT allignment code:
+Initially after trying and testing multiple approaches to align 4 element to their respective centers but failing I consulted Chat GPT, unaware of the current stance of Code Institute against it due to a lack or research on my part. After resolving 3 of the 4 issues through other methods I came to the conclusion that for the alignment of the confirmation page text the method suggested by Chat GPT simply was the best way to go. As I understand and concur with the vision of Code Institute on the encouragement of learning how to solve problems by yourself instead of using tools like AI, I went on to do research on why the transform translate method works in this situation, and how it works in general. 
 
-Pages used:
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text for the overflow-wrap: break-word in order to keep the paragrahp form interfering with the video content on the right
+- **position: absolute;** makes sure that the div is positioned relative to its nearest positioned ancestor, in this case that will be the #confirm-container which has it's position set to relative.
+- **top: 50%;** pushes the #confirm-header down from the top by 50% of its containing element.
+- **left: 50%;** repeats that process, but pushes it the right by 50%.
+
+- **transform: translate(-50%, -50%);** moves #confirm-header up and to the left by 50% of its **own** width and height respectively. This is required because otherwise the position absolute 50/50 would center the confirm header on it's left most point. By applying x-50% and y-50% to it, it moves up and to the left aligning its center with the center point of the containing element.
+
+The clarification for this code was found on [Stack Overflow](https://stackoverflow.com/questions/46184458/) written by a user named Terry, and later edited by Peter Mortensen.
+
+Upon concluding my research & learning process I decided to leave the code in, however, I will be sure to avoid Chat GPT in the future.
+
+[Back to top](<#contents>)
+
+# Credits
+- The [Developer Mozilla Webpage on Wrapping text](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text) for "the overflow-wrap: break-word" in order to keep the paragrahp form interferring with the video content on the right of it.
+- My Fonts from [Google Fonts](https://fonts.google.com/).
+- [Typ.io](https://typ.io/) for finding a maching font to Bebas Neue.
+- [Coolors.co](https://coolors.co/) for the color palate.
+- [CloudConvert](https://cloudconvert.com/jpg-to-webp) for converting images to webp format to reduce loading times.
+- Credits to the [Wawawoods project README by Ewan Colquhoun](https://github.com/EwanColquhoun/wawaswoods) to help create and structure my own README. This was a tremendous help.
+
+[Back to top](<#contents>)
+
+# Acknowledgements
+The FakeFairytale Battle Maps page was created as a project for the first milestone of the [Code Institute Full-Stack Development Course](https://codeinstitute.net/nl/full-stack-software-development-diploma/). During the learning process I've received excellent support and guidance from my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) who has been able to keep me focust, confident and made sure my project scope was realistic. I'd like to thank him for his guidance, as well as my wife, who took excellent care of me while I was crunching code.
+
+*And that was it folks, I hope you have enjoyed the tour through the FakeFairytale Battle Maps website. Thank you for reading and if there are any question don't hesitate to contact me. My e-mail is on the website!*
+
+[Back to top](<#contents>)
