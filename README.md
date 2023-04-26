@@ -15,8 +15,8 @@ FakeFairytale Battle Maps is a Youtube channel and content creator in the digita
   - [Wireframes](<#wireframes>)
   - [Site Structure](<#site-structure>)
   - [Design & Color Scheme](<#design--color-scheme>)
-  - [Typography](<#typography>)
-  - [Color Palatte](<#color-palette>)
+    - [Typography](<#typography>)
+    - [Color Palatte](<#color-palette>)
 - [Features](<#features>)
   - [Current Features](<#current-features>)  
     - [Logo & Navigation](<#logo--navigation>)
@@ -83,6 +83,8 @@ Right underneath the home page introduction text, two quick navigation buttons w
 ### Typography
 The typography that were chosen for the project were <a href="https://fonts.google.com/specimen/Bebas+Neue" target="_blank">Bebas Neue</a> for the headers and <a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat</a> with a fall-back on sans-serif as body text. Bebas Neue was chosen because it already was the main font of the FakeFairytale brand and it suits the role as header well. It is described ad bold and draws in the eyes to the headers to help guide a visitor through the page. Montserrat was chose as body and navigation text based on the recommendation from <a href="https://typ.io/fonts/bebas_neue#:~:text=Bebas%20Neue%20is%20a%20sans,Calluna%2C%20Avenir%20and%20Playfair%20Display." target="_blank">Typ.io</a> as a suitable match. It also has a clean look that'se asy to read and thus suited for explanatory texts.
 
+[Back to top](<#contents>)
+
 ### Color Palette
 
 The color scheme chosen is based on the FakeFairytale brand and the colors it employs in it's YouTube channel and logo. However, as those colors were not necessarily designed for the use of a website some minor changes have been made to address that. The original green-grey color has been darkened slightly to increase contrast. Alternatively the red has been derived from the Gnomes Hat in the logo, and the slightly off-black color has been chosen to better match the soft colors already in the palatte.
@@ -104,11 +106,15 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 
 ![screenshot of nav bar](assets/images/readme/nav-bar.jpg)
 
+[Back to top](<#contents>)
+
 ### Hero
 - Located just below the navigation is an image and welcome message. The image helps set the tone for the page and is one of the most popular maps made by FakeFairytale. It is blurred out so as to no distract from the message.
 - The welcome message immediately states the value the website provides. It is aimed at making you a better map-maker and helps the visitor understand the intent and purpose of the website.
 
 ![screenshot of website hero image](assets/images/readme/hero.JPG)
+
+[Back to top](<#contents>)
 
 ### About
 - A two collumn about section introduces the visitor to the FakeFairytale brand.
@@ -118,11 +124,15 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 
 ![screenshot of the about section](assets/images/readme/about-section.jpg)
 
+[Back to top](<#contents>)
+
 ### Sign-up form
 - A sign-up form lets the visitor register for a mail list that will provide updates on what is happening with the FakeFairytale Brand. It is designed for those who are hooked by the content so far and would like to learn more over the coming period.
 - Currently, there is no actual mail list, nor is the form hooked up to any sort of registration system.
 
 ![screenshot of sign-up form](assets/images/readme/sign-up-form.jpg)
+
+[Back to top](<#contents>)
 
 ### Footer
 - The site footer is always located at the bottom of the page and contains both the social media links & an e-mail address visitors can contact.
@@ -131,10 +141,14 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 
 ![screenshot of website footer](assets/images/readme/footer.jpg)
 
+[Back to top](<#contents>)
+
 ### Confirmation message
 - The confirmation page provides a message to let the visitor know their action of filling in the form has been successful. It also helps them understand they can now navigate to another page if so desired.
 
 ![screenshot of confirmation message](assets/images/readme/confirmation.jpg)
+
+[Back to top](<#contents>)
 
 ### Tutorial
 - An easy-to-follow step-by-step guide to downloading DD. Fully responsive to align below each other when viewing on smaller devices.
@@ -143,11 +157,15 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 
 ![screenshot of dungeondraft installation guide](assets/images/readme/tutorial.JPG)
 
+[Back to top](<#contents>)
+
 ### Tutorial Video
 - Underneath the DD installation Tutorial there is a special video gaimed at beginners in the DD software environment. 
 - The video allows the visitor to immediately start their learnig journey without having to switch websites.
 
 ![screenshot of the get started video](assets/images/readme/get-started.jpg)
+
+[Back to top](<#contents>)
 
 ### Maps
 - On this page, the visitor finds an overview of maps available for download.
