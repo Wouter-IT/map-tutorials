@@ -1,7 +1,7 @@
 # Testing
 
 ## Code Validation
-In order to properly test the FakeFairytale Battle Maps website it has to be run through the W3C HTML Validator and W3C CSS Validator respectively. No error were encountered during this process as some had already been addressed during an earlier stage of the development process. The CSS Validation passed without errors during it's first validation.
+In order to properly test the FakeFairytale Battle Maps website it has to be run through the [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) respectively. No errors were encountered during this process as some had already been addressed during an earlier stage of the development process. The CSS Validation passed without errors during it's first validation.
 
 ### HTML
 
@@ -18,7 +18,7 @@ In order to properly test the FakeFairytale Battle Maps website it has to be run
 ![screenshot HTML maps validation](assets/images/testing/maps-validation.png)
 
 ### CSS
-**CSS** <br>
+**CSS Validation** <br>
 ![screenshot CSS validation](assets/images/testing/css-validation.png)
 
 
@@ -54,11 +54,68 @@ The main issue is that the footer move up from the bottom of the screen. Please 
 The testing process has been repeated over multiple browsers and the results come out the same for each Chrome, Mozilla, Safari, Edge. All features funciton as intended and responsiveness is consitent in all tracked aspect.
 
 ## User Story Testing
+- As a visitor, I want to immediately understand the purpose of the website upon loading. 
+  - Upon loading the homepage the visitor is greeted with textbox stating the purpose of the website: Become a better map-maker in Dungeondraft.
+
+- As a visitor, I want to be able to navigate through the site conveniently.
+  - A navigation bar is available on every page at the top of the screen.
+  - The FakeFairytale logo also links back to the homepage.
+  - On the homepage there are two quick navigation buttons that get the visitor to the page they want without havcing to scroll up.
+
+- As a visitor, I want to see what kind of content FakeFairytale creates.
+  - On every main page of the website there is a type of content that FakeFairytale creates, hero image and video on the home-page, tutorial and tutorial video on the tutorial page, maps on the maps page. 
+
+- As a visitor, I want to have material to improve my map-making skills at my disposal.
+  - The home screen has a welcome text-box to reassure the visitor they are on a page where they can find support for map-making.
+  - The homepage has a video giving 15 tips to the viewer on how to improve.
+  - On the Tutorials page there is a video explaining the basics, which is part of a video series. The visitor has the opportunity to view the entire series without leaving the website.
+
+- As a visitor, I want to know how to purchase DD.
+  - A step by step tutorial on the Tutorial page explains how to go about the process of purchasing Dungeondraft.
+
+- As a visitor, I want to be able to contact FakeFairytale.
+  - Links to all social media and the email address are stated in the footer.
+  - A visitor can navigate to the FakeFairytale YouTube page through one of the videos on the website.
+
+- As a visitor, I want to be able to find more videos & tutorials.
+  - Upon reaching the end of a video, the FakeFairytale channel automatically recommends multiple videos the visitor can watch.
+  - A link to the YouTube Channel can be found in the footer.
+
+- As a visitor, I want to download maps made by FakeFairytale.
+  - On the Maps page there are 6 maps available to download immediately. 
 
 ## Known Bugs
-
 ### Resolved
+During development multiple bugs were encountered and resolved.
+
+- There was a bug causing the hero image to not fully display on larger screen sizer. This was resolved after finding out through the chrome devtools that removing the overflow: hidden property from the hero image fixed the issues, which was covering up the edges of the image.
+![screenshot of hero image missing on the left side of the screen](assets/images/testing/hero-bug.png)
+
+- There was an issue with divs exceeding the boundries of the screen, causing some elements to dissapear. It was resolved by giving the section they were in a set width of 100%, and the about-text box a width of 85% so the divs inside it would move closer to the center of the screen. The text was then centered with margin 0 auto.
+![screenshot of divs out of bounds](assets/images/testing/exceed-screen-edge.png)
+
+- On smaller devices of <450px the quick nav buttons appeared on top of each other and aligned to their right side. The issue was caused by their container being too small in width to contain both buttons. Reducing the size of the buttons resolved the issue.
+![screenshot of button bug](assets/images/testing/mobile-outline-bug.jpg)
+
+- The Maps page encountered a strange alignment issue on screens smaller than 950px although the text was aligned to center. It appeared to be pushed to the right by some element in the page header. The bug was resolved by adding more margin to the top of the h2 element.
+![screenshot of h2 alignment issue](assets/images/testing/header-misalignment.png)
 
 ### Unresolved
 
+**Navigation breaking on smaller than 350px screens**
+
+**Form email field & confirmation page**
+
+**Floating footer on larger screens**
+The footer of the webpage has not been hard-coded to stick to the bottom of the screen. Using position: absolute bottom 0 wil in most cases reoslve this issue. 
+
+**White lines in footer**
+On apperantly random screensizes white lines appear around the div contained the email address at the bottom of the page as illustrated in the image below. Presumably this can be tackled by removing the div heigh and backgroundcolor, and positioning the div 30px up using margin. This will result in the text floating into the footer.
+
 ## Lighthouse Testing
+
+During some additional testing using the Lighthouse functionality in the Chrome devtools it was confirmed that the changes to the images on the website, being altered from full PNG's to small webp files, has the desired effect. The webpage scored green accross the board.
+
+![screenshot of Lighthouse testing](assets/images/testing/lighthouse.png)
+
+[**Go Back to README**](README.md)
