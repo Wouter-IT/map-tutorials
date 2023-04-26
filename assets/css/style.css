@@ -291,9 +291,9 @@ footer {
 }
 
 /* signup confirmation page */
-#confirm-container {
+#clear-space {
     width: 100%;
-    height: 76vh;
+    height: auto;
     position: relative;
 }
 
@@ -305,6 +305,12 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
  }
+
+ #confirm-footer {
+    position: absolute;
+    bottom: 30px;
+}
+
 
 /* tutorial page */
 #tut-bg {
@@ -690,10 +696,6 @@ footer {
         padding: 57px 31px;
     }
 
-    /* confirmation page responsiveness */
-    #confirm-container {
-        height: 78vh;
-    }
     /* tutorial page responsiveness */
     #tut-text {
         margin: 0 50px 50px;
