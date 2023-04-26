@@ -3,7 +3,7 @@
 ---------------------------------------------------------------------------------------------------------------------
 # FakeFairytale Battle Maps
 
-FakeFairytale Battle Maps is a Youtube channel and content creator in the digital map-making space. It is specifically geared towards user of the DungeonDraft( Henceforth referred to as "DD") software, or those who are in the consideration process of purchasing DD. The website is designed to familiarize people with the FakeFairytale YouTube Channel, Tutorials and Maps and offers content on these three respective fields. FakeFairytale Battle Maps will help people find their way into the world of digital map making using DD.
+FakeFairytale Battle Maps is a Youtube channel and content creator in the digital map-making space. It is specifically geared towards users of the DungeonDraft( Henceforth referred to as "DD") software, or those who are in the consideration process of purchasing DD. The website is designed to familiarize people with the FakeFairytale YouTube Channel, Tutorials and Maps and offers content on these three respective fields. FakeFairytale Battle Maps will help people find their way into the world of digital map-making using DD.
 
 *Hello and welcome! My name is FakeFairytale and today I'm going to guide you through the website of* <a href="https://wouter-it.github.io/maps-tutorial/" target="_blank">*FakeFairytale Battle Maps*</a>.
 
@@ -14,14 +14,14 @@ FakeFairytale Battle Maps is a Youtube channel and content creator in the digita
 TO BE FILLED IN
 
 # User Experience (UX)
-- As a visitor I want to immediatly understand the purpose of the website upon loading. 
-- As a visitor I want to be able to navigate through the site conveniently.
-- As a visitor I want to see what kind of content FakeFairytale creates.
-- As a visitor I want to have material to improve my map-making skills at my disposal.
-- As a visitor I want to know how to purchase DD.
-- As a visitor I want to be able to contact FakeFairytale.
-- As a visitor I want to be able to find more videos & tutorials.
-- As a visitor I want to download maps made by FakeFairytale.
+- As a visitor, I want to immediately understand the purpose of the website upon loading. 
+- As a visitor, I want to be able to navigate through the site conveniently.
+- As a visitor, I want to see what kind of content FakeFairytale creates.
+- As a visitor, I want to have material to improve my map-making skills at my disposal.
+- As a visitor, I want to know how to purchase DD.
+- As a visitor, I want to be able to contact FakeFairytale.
+- As a visitor, I want to be able to find more videos & tutorials.
+- As a visitor, I want to download maps made by FakeFairytale.
 
 [Back to top](<#contents>)
 
@@ -38,9 +38,9 @@ The final design of the website varies slightly from the wireframes in some rega
 
 ## Site Structure
 
-The FakeFairytale website has 4 differen pages. The [home page](index.html) as default page to greet visitors, the [confirmation screen](confirm-signup.html) that people see when they fill in the sign-up to newsletter form on the home page, the [tutorial](tutorial.html) where people can learn how to install DD and watch the first tutorial video on the software, and the [maps](maps.html) page wehere people can view and download maps made by FakeFairytale.
+The FakeFairytale website has 4 different pages. The [home page](index.html) as default page to greet visitors, the [confirmation screen](confirm-signup.html) that people see when they fill in the sign-up to newsletter form on the home page, the [tutorial](tutorial.html) where people can learn how to install DD and watch the first tutorial video on the software, and the [maps](maps.html) page where people can view and download maps made by FakeFairytale.
 
-Right underneath the home page introduction text there are also two quick navigation buttons that will take the visitor directly to either the tutorial or maps page based on their input and reason for visiting the website.
+Right underneath the home page introduction text, two quick navigation buttons will take the visitor directly to either the tutorial or maps page, based on their input and reason for visiting the website.
 
 [Back to top](<#contents>)
 
@@ -68,8 +68,8 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 ![screenshot of nav bar](assets/images/readme/nav-bar.jpg)
 
 ### Hero (Home-page)
-- Located just below the navigation is an image and welcome message. The image helps set the tone for the page and is one of the most popular maps made by FakeFairytale. It is blurred out as to no distract form the message.
-- The welcome message immediately states the value the website provides. It is aimed at making you a better map-maker and helps the visitor understand the intend and purpose of the website.
+- Located just below the navigation is an image and welcome message. The image helps set the tone for the page and is one of the most popular maps made by FakeFairytale. It is blurred out so as to no distract from the message.
+- The welcome message immediately states the value the website provides. It is aimed at making you a better map-maker and helps the visitor understand the intent and purpose of the website.
 
 ![screenshot of website hero image](assets/images/readme/hero.JPG)
 
@@ -82,38 +82,38 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 ![screenshot of the about section](assets/images/readme/about-section.jpg)
 
 ### Sign-up form (Home-page)
-- A sign-up form let's the visitor register for a maillist that will provide updates on what it happening with the FakeFairytale Brand. It is designed for those who are hooked by the content so far and would like to learn more over the coming period.
-- Currently there is no actually mail-list, nor is the form hooked up to any sort of registration system.
+- A sign-up form lets the visitor register for a mail list that will provide updates on what is happening with the FakeFairytale Brand. It is designed for those who are hooked by the content so far and would like to learn more over the coming period.
+- Currently, there is no actual mail list, nor is the form hooked up to any sort of registration system.
 
 ![screenshot of sign-up form](assets/images/readme/sign-up-form.jpg)
 
 ### Footer (All-pages)
-- The site footer is always located at the bottom of the page and contains both the social media links & an e-mail adres visitors can contact.
-- The Social Media links are enhanced with icons and open in separate tabs wen clicked. They're there for those who do not wish to sign up to a newsletter or are looking to do so through a different medium.
+- The site footer is always located at the bottom of the page and contains both the social media links & an e-mail address visitors can contact.
+- The Social Media links are enhanced with icons and open in separate tabs when clicked. They're there for those who do not wish to sign up for a newsletter or are looking to do so through a different medium.
 - Email is added to allow people to contact FakeFairytale directly.
 
 ![screenshot of website footer](assets/images/readme/footer.jpg)
 
 ### Confirmation message (Confirm-page)
-- The confirmation page provide a message to let the visitor know their action of filling in the form was successful. It also helps them understand they can now navigate to another page if so desired.
+- The confirmation page provides a message to let the visitor know their action of filling in the form has been successful. It also helps them understand they can now navigate to another page if so desired.
 
 ![screenshot of confirmation message](assets/images/readme/confirmation.jpg)
 
 ### Tutorial
-- An easy to follow step by step guide to downlaoding DD. Fully responsive to align below each other when viewing on smaller devices.
-- Designed to help the visitor find their way through the instillation process of DD, which can be a bit confusing at times.
-- Final step in the process helps guide visitor to the video below.
+- An easy-to-follow step-by-step guide to downloading DD. Fully responsive to align below each other when viewing on smaller devices.
+- Designed to help the visitor find their way through the installation process of DD, which can be a bit confusing at times.
+- The final step in the process helps guide the visitor to the video below.
 
 ![screenshot of dungeondraft installation guide](assets/images/readme/tutorial.JPG)
 
 ### Tutorial Video
-- Underneath the DD installation Tutorial there is a special video geared towards beginners in the DD software environemt. 
-- The video allows the visitor to immediatly start their learnig journey without having to switch sites.
+- Underneath the DD installation Tutorial there is a special video gaimed at beginners in the DD software environment. 
+- The video allows the visitor to immediately start their learnig journey without having to switch websites.
 
 ![screenshot of the get started video](assets/images/readme/get-started.jpg)
 
 ### Maps
-- On this page the visitor finds an overview of maps avaiable for download.
+- On this page, the visitor finds an overview of maps available for download.
 - Designed to give an easy birds-eye view of the options available with a clear call to action if they want to download the maps. Also provides basic information about the map.
 - Can easily be expanded upon.
 - The download buttons are direct download links that allow for immediate downloading without any more user input.
@@ -123,10 +123,10 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 [Back to top](<#contents>)
 
 ## Future Feature
-- A sticky navigation and footer bar to ensure navigation & Social Meadia links are always available.
-- Back to top button in the bottom right corner of each page to ease navigation.
+- A sticky navigation and footer bar to ensure navigation & Social Media links are always available.
+- A "Backto top" button in the bottom right corner of each page to ease navigation.
 - Make sure the Sign-up Form actually registers applicants and pushes data to a server.
-- Back to home button on confirmation screen
+- Back to home button on the confirmation screen
 - Additional Maps to download on the Maps page with the option to donate towards the creator.
 
 [Back to top](<#contents>)
@@ -147,9 +147,9 @@ Please refer to the testing document [**_here_**](TESTING.md) for more informati
 
 ### **How to deploy the project yourself**
 The website was deployed to GitHub pages. In order to replicate the website in your own environment please follow the steps below:
-  1. In the GitHub repository which you can find throug [this link](https://github.com/Wouter-IT/maps-tutorial) navigate to the **Settings** tab.
+  1. In the GitHub repository which you can find through [this link](https://github.com/Wouter-IT/maps-tutorial) navigate to the **Settings** tab.
   ![screenshot of GitHub repository with settings highlighted](assets/images/readme/step1.jpg)
-  2. In settings, navigate to the **Pages** tab on the left hand side in the section "Code and automation".
+  2. In settings, navigate to the **Pages** tab on the left-hand side in the section "Code and automation".
   3. Under **Source**, set the branch to **main** and then click **save**.
   ![screenshot of "pages" and branch section highlighted](assets/images/readme/step3.jpg)
   4. Upon selection, the page will automatically refresh. A ribbon display will indicate the deployment has been successful.
@@ -163,7 +163,7 @@ A copy of the repository can be made by forking the GitHub account. You can view
 ### **To create a local clone of this project**
 You can also create a local copy of the project using the following steps:
 1. Open the project repository and make sure you are currently in the **<> Code** tab.
-2. On the right, click on the left of the two buttons named **<> Code**. This will open a dropdwon meny which desplays the URL of the project, copy this URL.
+2. On the right, click on the left of the two buttons named **<> Code**. This will open a dropdown menu which displays the URL of the project, copy this URL.
 ![screenshot on how to clone](assets/images/readme/local-clone.jpg)
 3. In your IDE of choice, open **Git Bash**.
 4. Change the current working directory to the location where you would like the cloned directory to be.
