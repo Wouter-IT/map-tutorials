@@ -3,23 +3,26 @@
 ## Code Validation
 In order to properly test the FakeFairytale Battle Maps website it has to be run through the W3C HTML Validator and W3C CSS Validator respectively. No error were encountered during this process as some had already been addressed during an earlier stage of the development process. The CSS Validation passed without errors during it's first validation.
 
-**Home**
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
-
-**Confirmation page**
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
-
-**Tutorial**
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
-
-**Maps**
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
-
-**CSS**
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
-
 ### HTML
+
+**Home** <br>
+![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
+
+**Confirmation page** <br>
+![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
+
+**Tutorial** <br>
+![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
+
+**Maps** <br>
+![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
+
 ### CSS
+**CSS** <br>
+![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
+
+
+
 
 ## Responsiveness
 
@@ -39,7 +42,9 @@ During testing on a wide variety of screen sizes it wwas noted that the website 
 The main issue on smaller than 350px screens in that the navigation menu no-longer fits in the top bar. Additionally, the email field in the sign-up form shifts to the right and the confirmation screen text isn't perfectly aligned to the center of the screen. Please consult the [Unresolved bugs](<#unresolved>) section for suggestions on how this could be addressed.
 
 ![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
-![screenshot of breaking form](assets/images/testing/Iphone-5-form.png) 
+<br>
+![screenshot of breaking form](assets/images/testing/Iphone-5-form.png)
+<br> 
 ![screenshot of breaking text centralisation](assets/images/testing/Iphone-5-confirm.png)
 
 
