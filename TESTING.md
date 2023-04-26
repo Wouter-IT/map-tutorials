@@ -40,8 +40,10 @@ The main issue on smaller than 350px screens in that the navigation menu no-long
 
 ![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
 <br>
+
 ![screenshot of breaking form](assets/images/testing/Iphone-5-form.png)
 <br> 
+
 ![screenshot of breaking text centralisation](assets/images/testing/Iphone-5-confirm.png)
 
 
@@ -89,30 +91,35 @@ The testing process has been repeated over multiple browsers and the results com
 During development multiple bugs were encountered and resolved.
 
 - There was a bug causing the hero image to not fully display on larger screen sizer. This was resolved, through the use of chrome devtools, that after removing the overflow: hidden property from the hero image the issues dispapeared. The overflow was being hidden.
+
 ![screenshot of hero image missing on the left side of the screen](assets/images/testing/hero-bug.png)
 
 - There was an issue with divs exceeding the boundries of the screen, causing some elements to disappear. It was resolved by giving the section they were in a set width of 100%, and the about-text box a width of 85% so the divs inside it would move closer to the center of the screen. The text was then centered with margin 0 auto.
+
 ![screenshot of divs out of bounds](assets/images/testing/exceed-screen-edge.png)
 
 - On smaller devices of <450px the quick nav buttons appeared on top of each other and aligned to their right side. The issue was caused by their container being too small in width to contain both buttons. Reducing the size of the buttons resolved the issue.
+
 ![screenshot of button bug](assets/images/testing/mobile-outline-bug.jpg)
 
 - The Maps page encountered a strange alignment issue on screens smaller than 950px although the text was aligned to center. It appeared to be pushed to the right by some element in the page header. The bug was resolved by adding more margin to the top of the h2 element.
+
 ![screenshot of h2 alignment issue](assets/images/testing/header-misalignment.png)
 
 - On apperantly random screensizes white lines appear around the div contained the email address at the bottom of the page as illustrated in the image below. This was tackeled by increasing the size of the footers height.
+
 ![screenshot of white lines in footer](assets/images/testing/white-lines-footer-bug.png)
 
 ### Unresolved
 
 **Navigation breaking on smaller than 350px screens**
-- On 350px or smaller screens the navigation menu no longer fist in the header of the page as illustrated in the images above in the responsiveness chapter. This issue can be resolved by reducing the header size slightly on screens below 350px width size.
+- On 350px or smaller screens the navigation menu no longer fist in the header of the page as illustrated in the [images above](<#responsiveness>) in the responsiveness chapter. This issue can be resolved by reducing the header size slightly on screens below 350px width size.
 
 **Form email field & confirmation page**
-- On 350px or smaller screens the email field no longer aligns with the other fields as illustrated in the images above in the responsiveness chapter. This can be fixed by resetting some margins to the left, or simply by centralising the field.
+- On 350px or smaller screens the email field no longer aligns with the other fields as illustrated in the [images above](<#responsiveness>) in the responsiveness chapter. This can be fixed by resetting some margins to the left, or simply by centralising the field.
 
 **Floating footer on larger screens**
-- The footer of the webpage has not been hard-coded to stick to the bottom of the screen as illustrated in the images above in the responsiveness chapter. Using position: absolute bottom 0 wil in most cases reoslve this issue. 
+- The footer of the webpage has not been hard-coded to stick to the bottom of the screen as illustrated in the [images above](<#responsiveness>) in the responsiveness chapter. Using position: absolute bottom 0 wil in most cases reoslve this issue. 
 
 ## Lighthouse Testing
 

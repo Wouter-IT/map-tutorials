@@ -23,6 +23,8 @@ TO BE FILLED IN
 - As a visitor, I want to be able to find more videos & tutorials.
 - As a visitor, I want to download maps made by FakeFairytale.
 
+More information on the Visitor Journeys can be found in the [**_Testing document_**](TESTING.md)
+
 [Back to top](<#contents>)
 
 ## Wireframes
@@ -126,7 +128,7 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 - A sticky navigation and footer bar to ensure navigation & Social Media links are always available.
 - A "Backto top" button in the bottom right corner of each page to ease navigation.
 - Make sure the Sign-up Form actually registers applicants and pushes data to a server.
-- Back to home button on the confirmation screen
+- Back to home button on the confirmation screen.
 - Additional Maps to download on the Maps page with the option to donate towards the creator.
 - Support for <350px width screens.
 
