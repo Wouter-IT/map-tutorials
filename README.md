@@ -10,15 +10,14 @@ FakeFairytale Battle Maps is a Youtube channel and content creator in the digita
 ![image of the FakeFairytale Website on different devices.](assets/images/readme/ffbm-screens.jpg)
 
 # Contents
-[User Experience UX](<#user-experience-ux>)
+- [User Experience UX](<#user-experience-ux>)
   - [User Stories](<#user-stories>)
   - [Wireframes](<#wireframes>)
   - [Site Structure](<#site-structure>)
   - [Design & Color Scheme](<#design-&-color-scheme>)
   - [Typography](<#typography>)
   - [Color Palatte](<#color-palatte>)
-
-[Features](<#features>)
+- [Features](<#features>)
   - [Current Features](<#current-features>)  
     - [Logo & Navigation](<#logo-&-navigation>)
     - [Hero](<#hero>)
@@ -30,26 +29,19 @@ FakeFairytale Battle Maps is a Youtube channel and content creator in the digita
     - [Tutorial Video](<#tutorial-video>)
     - [Maps](<#maps>)
   - [Future Features](<#future-features>)
-
-[Technologies & Tools used](<#technologies-&-tools-used>)
-
-[Testing](<#testing>)
-
-[Deployment](<#deployment>)
+- [Technologies & Tools used](<#technologies-&-tools-used>)
+- [Testing](<#testing>)
+- [Deployment](<#deployment>)
   - [How to deploy the project yourself](<#how-to-deploy-the-project-yourself>)
   - [Copy repo to GitHub](<#to-copy-the-repository-in-github>)
   - [Create local clone](<#to-create-a-local-clone-of-this-project>)
-  
-  [Comments](<#comments>)
+- [Comments](<#comments>)
      - [Regarding Chat GPT Code](<#regarding-chat-gpt-allignment-code>)
-
-[Credits](<#credits>)
+- [Credits](<#credits>)
   - [Content](<#content>)
   - [Media](<#media>)
-
-[Acknowledgements](<#acknowledgements>)
-
-[Sign-off](<#sign-off>)
+- [Acknowledgements](<#acknowledgements>)
+- [Sign-off](<#sign-off>)
 
 # User Experience UX
 
