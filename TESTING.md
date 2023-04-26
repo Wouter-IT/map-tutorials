@@ -1,7 +1,7 @@
 # Testing
 
 ## Code Validation
-In order to properly test the FakeFairytale Battle Maps website it has to be run through the [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) respectively. No errors were encountered during this process as some had already been addressed during an earlier stage of the development process. The CSS Validation passed without errors during it's first validation.
+In order to properly test the FakeFairytale Battle Maps website it has to be run through the [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) respectively. No errors were encountered during this process. Both the HTML and CSS Validation passed without errors during it's first validation.
 
 ### HTML
 
@@ -31,9 +31,9 @@ In order to properly test the FakeFairytale Battle Maps website it has to be run
 | Videoplayer | pass     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
 | Links       | pass     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
 | Form        | fail     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
-| Width in px | 320px    | 360px   | 375px    | 390px         | 768px     | 820px    | 950 to 1300px   | 1920px          | 2560px          | 4000px          |
+| Width       | 320px    | 360px   | 375px    | 390px         | 768px     | 820px    | 950 to 1300px   | 1920px          | 2560px          | 4000px          |
 
-During testing on a wide variety of screen sizes it wwas noted that the website degrades in quality in screens smaller than 350px and wider than 4k. The webstie remains usuable and it's structural integrity mostly intacts. However, some elements start to position in strange places as illustraded below.
+During testing on a wide variety of screen sizes it was noted that the website degrades in quality in screens smaller than 350px and wider than 4k. The website remains usuable and its structural integrity mostly intacts. However, some elements start to position in strange places as illustraded below.
 
 ### <350px Screens
 The main issue on smaller than 350px screens in that the navigation menu no-longer fits in the top bar. Additionally, the email field in the sign-up form shifts to the right and the confirmation screen text isn't perfectly aligned to the center of the screen. Please consult the [Unresolved bugs](<#unresolved>) section for suggestions on how this could be addressed.
@@ -51,7 +51,7 @@ The main issue is that the footer move up from the bottom of the screen. Please 
 ![screenshot of floating footer](assets/images/testing/4k-screens.png)
 
 ## Browser Compatibility
-The testing process has been repeated over multiple browsers and the results come out the same for each Chrome, Mozilla, Safari, Edge. All features funciton as intended and responsiveness is consitent in all tracked aspect.
+The testing process has been repeated over multiple browsers and the results come out the same for each Chrome, Mozilla, Safari, Edge. All features function as intended and responsiveness is consitent in all tracked aspect.
 
 ## User Story Testing
 - As a visitor, I want to immediately understand the purpose of the website upon loading. 
@@ -60,7 +60,7 @@ The testing process has been repeated over multiple browsers and the results com
 - As a visitor, I want to be able to navigate through the site conveniently.
   - A navigation bar is available on every page at the top of the screen.
   - The FakeFairytale logo also links back to the homepage.
-  - On the homepage there are two quick navigation buttons that get the visitor to the page they want without havcing to scroll up.
+  - On the homepage there are two quick navigation buttons that get the visitor to the page they want without having to scroll up.
 
 - As a visitor, I want to see what kind of content FakeFairytale creates.
   - On every main page of the website there is a type of content that FakeFairytale creates, hero image and video on the home-page, tutorial and tutorial video on the tutorial page, maps on the maps page. 
@@ -88,10 +88,10 @@ The testing process has been repeated over multiple browsers and the results com
 ### Resolved
 During development multiple bugs were encountered and resolved.
 
-- There was a bug causing the hero image to not fully display on larger screen sizer. This was resolved after finding out through the chrome devtools that removing the overflow: hidden property from the hero image fixed the issues, which was covering up the edges of the image.
+- There was a bug causing the hero image to not fully display on larger screen sizer. This was resolved, through the use of chrome devtools, that after removing the overflow: hidden property from the hero image the issues dispapeared. The overflow was being hidden.
 ![screenshot of hero image missing on the left side of the screen](assets/images/testing/hero-bug.png)
 
-- There was an issue with divs exceeding the boundries of the screen, causing some elements to dissapear. It was resolved by giving the section they were in a set width of 100%, and the about-text box a width of 85% so the divs inside it would move closer to the center of the screen. The text was then centered with margin 0 auto.
+- There was an issue with divs exceeding the boundries of the screen, causing some elements to disappear. It was resolved by giving the section they were in a set width of 100%, and the about-text box a width of 85% so the divs inside it would move closer to the center of the screen. The text was then centered with margin 0 auto.
 ![screenshot of divs out of bounds](assets/images/testing/exceed-screen-edge.png)
 
 - On smaller devices of <450px the quick nav buttons appeared on top of each other and aligned to their right side. The issue was caused by their container being too small in width to contain both buttons. Reducing the size of the buttons resolved the issue.
@@ -100,21 +100,23 @@ During development multiple bugs were encountered and resolved.
 - The Maps page encountered a strange alignment issue on screens smaller than 950px although the text was aligned to center. It appeared to be pushed to the right by some element in the page header. The bug was resolved by adding more margin to the top of the h2 element.
 ![screenshot of h2 alignment issue](assets/images/testing/header-misalignment.png)
 
+- On apperantly random screensizes white lines appear around the div contained the email address at the bottom of the page as illustrated in the image below. This was tackeled by increasing the size of the footers height.
+![screenshot of white lines in footer](assets/images/testing/white-lines-footer-bug.png)
+
 ### Unresolved
 
 **Navigation breaking on smaller than 350px screens**
+- On 350px or smaller screens the navigation menu no longer fist in the header of the page as illustrated in the images above in the responsiveness chapter. This issue can be resolved by reducing the header size slightly on screens below 350px width size.
 
 **Form email field & confirmation page**
+- On 350px or smaller screens the email field no longer aligns with the other fields as illustrated in the images above in the responsiveness chapter. This can be fixed by resetting some margins to the left, or simply by centralising the field.
 
 **Floating footer on larger screens**
-The footer of the webpage has not been hard-coded to stick to the bottom of the screen. Using position: absolute bottom 0 wil in most cases reoslve this issue. 
-
-**White lines in footer**
-On apperantly random screensizes white lines appear around the div contained the email address at the bottom of the page as illustrated in the image below. Presumably this can be tackled by removing the div heigh and backgroundcolor, and positioning the div 30px up using margin. This will result in the text floating into the footer.
+- The footer of the webpage has not been hard-coded to stick to the bottom of the screen as illustrated in the images above in the responsiveness chapter. Using position: absolute bottom 0 wil in most cases reoslve this issue. 
 
 ## Lighthouse Testing
 
-During some additional testing using the Lighthouse functionality in the Chrome devtools it was confirmed that the changes to the images on the website, being altered from full PNG's to small webp files, has the desired effect. The webpage scored green accross the board.
+During some additional testing using the Lighthouse functionality in the Chrome devtools it was confirmed that the changes to the images on the website, being altered from full PNG's to small webp files, has the desired effect. Outside of that the webpage scored green accross the board as well.
 
 ![screenshot of Lighthouse testing](assets/images/testing/lighthouse.png)
 
