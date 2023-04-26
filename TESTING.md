@@ -6,22 +6,20 @@ In order to properly test the FakeFairytale Battle Maps website it has to be run
 ### HTML
 
 **Home** <br>
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
+![screenshot HTML home validation](assets/images/testing/index-validation.png)
 
 **Confirmation page** <br>
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
+![screenshot HTML confirmation validation](assets/images/testing/confirmation-validation.png)
 
 **Tutorial** <br>
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
+![screenshot HTML tutorial validation](assets/images/testing/tutorial-validation.png)
 
 **Maps** <br>
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
+![screenshot HTML maps validation](assets/images/testing/maps-validation.png)
 
 ### CSS
 **CSS** <br>
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
-
-
+![screenshot CSS validation](assets/images/testing/css-validation.png)
 
 
 ## Responsiveness
@@ -33,7 +31,6 @@ In order to properly test the FakeFairytale Battle Maps website it has to be run
 | Videoplayer | pass     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
 | Links       | pass     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
 | Form        | fail     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
-|-------------|----------|---------|----------|---------------|-----------|----------|-----------------|-----------------|-----------------|-----------------|
 | Width in px | 320px    | 360px   | 375px    | 390px         | 768px     | 820px    | 950 to 1300px   | 1920px          | 2560px          | 4000px          |
 
 During testing on a wide variety of screen sizes it wwas noted that the website degrades in quality in screens smaller than 350px and wider than 4k. The webstie remains usuable and it's structural integrity mostly intacts. However, some elements start to position in strange places as illustraded below.
