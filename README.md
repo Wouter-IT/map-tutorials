@@ -195,7 +195,13 @@ Upon concluding my research & learning process I decided to leave the code in, h
 - [Typ.io](https://typ.io/) for finding a maching font to Bebas Neue.
 - [Coolors.co](https://coolors.co/) for the color palate.
 - [CloudConvert](https://cloudconvert.com/jpg-to-webp) for converting images to webp format to reduce loading times.
+- [Font Awesome](https://fontawesome.com/) for implementing Icons on the website.
 - Credits to the [Wawawoods project README by Ewan Colquhoun](https://github.com/EwanColquhoun/wawaswoods) to help create and structure my own README. This was a tremendous help.
+- The code for the Favicon found on [W3Schools](https://www.w3schools.com/html/html_favicon.asp).
+- The code that changes the cursor upon hovering over a button & creating a button that leads you to another page on the Website from [Scaler](https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/)
+- Sections of my own code form the Love Running Walkthrough Project that I have repurposed to suit my needs for this website: Footer & Google Icons Script.
+- [Tutorialspoint.com](https://www.tutorialspoint.com/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript#:~:text=Use%20the%20download%20attribute%20with,as%20a%20file%20download%20button) for the code on how to create a download button that downloads a file on click.
+- [Stack Overflow](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute) for using a "Title" attribute as alternative for an alt attribute.
 
 [Back to top](<#contents>)
 
