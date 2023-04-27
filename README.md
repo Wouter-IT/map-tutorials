@@ -193,7 +193,6 @@ The color scheme chosen is based on the FakeFairytale brand and the colors it em
 - [Balsamiq](https://balsamiq.com/wireframes/) - used to create sketches/wireframes for the website.
 - [Gitpod](https://www.gitpod.io/#get-started) - used to deploy adn edit the website.
 - [Github](https://github.com/) - used to host website repository.
-- [Chat GPT](https://openai.com/blog/chatgpt) for suggesting a specific solution to the confirmaiton page alignment issue.
 
 [Back to top](<#contents>)
 

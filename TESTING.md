@@ -21,6 +21,16 @@ In order to properly test the FakeFairytale Battle Maps website it has to be run
 **CSS Validation** <br>
 ![screenshot CSS validation](assets/images/testing/css-validation.png)
 
+### Chrome Console Error
+
+During testing a Chrome console error was found. After some research a thread on STack Overflow confirmed this has nothing to do with the code but simply because Chrome added support for Sourcemaps. When disableing JavaScript source maps and CSS source maps in the setting of the CHrome dev tools the issue should resolve itself.
+
+![screenshot console error](assets/images/testing/console-errors.png)
+
+Also note that having an Ad-blocker active may cause errors in the console due to it blocking ads on the Youtube Video's embedded in the website.
+
+![screenshot ad blocker console error](assets/images/testing/adblocker-errors.png)
+
 
 ## Responsiveness
 
@@ -119,7 +129,7 @@ During development multiple bugs were encountered and resolved.
 - On 350px or smaller screens the email field no longer aligns with the other fields as illustrated in the [images above](<#responsiveness>) in the responsiveness chapter. This can be fixed by resetting some margins to the left, or simply by centralising the field.
 
 **Floating footer on larger screens**
-- The footer of the webpage has not been hard-coded to stick to the bottom of the screen as illustrated in the [images above](<#responsiveness>) in the responsiveness chapter. Using position: absolute bottom 0 wil in most cases reoslve this issue. 
+- The footer of the webpage has not been hard-coded to stick to the bottom of the screen as illustrated in the [images above](<#responsiveness>) in the responsiveness chapter. Using position: absolute bottom 0 wil in most cases resolve this issue. 
 
 ## Lighthouse Testing
 

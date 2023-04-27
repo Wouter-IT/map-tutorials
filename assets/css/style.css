@@ -301,7 +301,8 @@ footer {
 #confirm-header {
     font-size: 200%;
     text-align: center;
-    /* The below section of code up to and including transform: translate was suggested by chat GPT. Motivation for why this is still in the code can be found in the README comments.*/
+    /* The below section of code up to and including transform: translate was suggested by chat GPT. 
+    Motivation for why this is still in the code can be found in the README comments.*/
     /* Code has been discussed with the CI Student Care team and it was agreed there would be no issue as long as this is creditted correctly. */
     position: absolute;
     top: 50%;
@@ -311,7 +312,7 @@ footer {
 
  #confirm-footer {
     position: absolute;
-    bottom: 30px;
+    bottom: 0;
 }
 
 
@@ -542,12 +543,12 @@ footer {
 
     #quick-nav-left {
         float: left;
-        margin-left: 10%;
+        margin-left: 8%;
     }
 
     #quick-nav-right {
         float: right;
-        margin-right: 10%;
+        margin-right: 8%;
     }
 
     #button-box {
