@@ -297,9 +297,12 @@ footer {
     position: relative;
 }
 
+
 #confirm-header {
     font-size: 200%;
     text-align: center;
+    /* The below section of code up to and including transform: translate was suggested by chat GPT. Motivation for why this is still in the code can be found in the README comments.*/
+    /* Code has been discussed with the CI Student Care team and it was agreed there would be no issue as long as this is creditted correctly. */
     position: absolute;
     top: 50%;
     left: 50%;
