@@ -12,7 +12,6 @@ body {
     color: #282a26;
 }
 
-
 /* Navigation bar & Logo */
 h1,
 h2 {
@@ -97,6 +96,7 @@ header {
     background-position: center;
     margin-top: 10px;
 }
+
 /* floating box over hero image */
 #cover-text {
     font-size: 220%;
@@ -297,7 +297,6 @@ footer {
     position: relative;
 }
 
-
 #confirm-header {
     font-size: 200%;
     text-align: center;
@@ -308,13 +307,12 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
- }
+}
 
  #confirm-footer {
     position: absolute;
     bottom: 0;
 }
-
 
 /* tutorial page */
 #tut-bg {
@@ -534,7 +532,6 @@ footer {
         width: 85%;
         height: auto;
         margin: 0 auto;
-
     }
 
     .about-nav {
