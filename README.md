@@ -281,5 +281,5 @@ The FakeFairytale Battle Maps page was created as a project for the first milest
 
 # Sign-off
 *And that was it folks, I hope you have enjoyed the tour through the FakeFairytale Battle Maps website. Thank you for reading and if there are any question don't hesitate to contact me. My e-mail is on the website!*
-
+  
 [Back to top](<#contents>)
