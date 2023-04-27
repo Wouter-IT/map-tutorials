@@ -40,26 +40,14 @@ Last but not least, in the deployed verison of the site the eroor below pops up.
 
 |             | Iphone 5 | Moto G4 | iPhone 6 | iPhone 12 pro | iPad mini | iPad Air | Display <1300px | Display 1920px  | Display 2560px  | Display 4k      |
 |-------------|----------|---------|----------|---------------|-----------|----------|-----------------|-----------------|-----------------|-----------------|
-| Navigation  | fail     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | fail            |
+| Navigation  | pass     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | fail            |
 | Images      | pass     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
 | Videoplayer | pass     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
 | Links       | pass     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
-| Form        | fail     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
+| Form        | pass     | pass    | pass     | pass          | pass      | pass     | pass            | pass            | pass            | pass            |
 | Width       | 320px    | 360px   | 375px    | 390px         | 768px     | 820px    | 950 to 1300px   | 1920px          | 2560px          | 4000px          |
 
 During testing on a wide variety of screen sizes it was noted that the website degrades in quality in screens smaller than 350px and wider than 4k. The website remains usuable and its structural integrity mostly intacts. However, some elements start to position in strange places as illustraded below.
-
-### <350px Screens
-The main issue on smaller than 350px screens in that the navigation menu no-longer fits in the top bar. Additionally, the email field in the sign-up form shifts to the right and the confirmation screen text isn't perfectly aligned to the center of the screen. Please consult the [Unresolved bugs](<#unresolved>) section for suggestions on how this could be addressed.
-
-![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
-<br>
-
-![screenshot of breaking form](assets/images/testing/Iphone-5-form.png)
-<br> 
-
-![screenshot of breaking text centralisation](assets/images/testing/Iphone-5-confirm.png)
-
 
 ### Above 4k Screens
 The main issue is that the footer move up from the bottom of the screen. Please consult the [Unresolved bugs](<#unresolved>) section for suggestions on how this could be addressed.
@@ -124,21 +112,39 @@ During development multiple bugs were encountered and resolved.
 
 ![screenshot of white lines in footer](assets/images/testing/white-lines-footer-bug.png)
 
+- <350px Screens had issues with the alignment of multiple elements. Main;y the navigation menu no-longer fits in the top bar and  the email field in the sign-up form shifts to the right and the confirmation screen text isn't perfectly aligned to the center of the screen. These scaling issues have been resolved by adding repsonsiveness specifically for devices with screens smaller than 350px width.
+
+![screenshot breaking nav bar](assets/images/testing/Iphone-5-menu.png)
+<br>
+
+![screenshot of breaking form](assets/images/testing/Iphone-5-form.png)
+<br> 
+
+![screenshot of breaking text centralisation](assets/images/testing/Iphone-5-confirm.png)
+
 ### Unresolved
-
-**Navigation breaking on smaller than 350px screens**
-- On 350px or smaller screens the navigation menu no longer fist in the header of the page as illustrated in the [images above](<#responsiveness>) in the responsiveness chapter. This issue can be resolved by reducing the header size slightly on screens below 350px width size.
-
-**Form email field & confirmation page**
-- On 350px or smaller screens the email field no longer aligns with the other fields as illustrated in the [images above](<#responsiveness>) in the responsiveness chapter. This can be fixed by resetting some margins to the left, or simply by centralising the field.
 
 **Floating footer on larger screens**
 - The footer of the webpage has not been hard-coded to stick to the bottom of the screen as illustrated in the [images above](<#responsiveness>) in the responsiveness chapter. Using position: absolute bottom 0 wil in most cases resolve this issue. 
 
 ## Lighthouse Testing
 
-During some additional testing using the Lighthouse functionality in the Chrome devtools it was confirmed that the changes to the images on the website, being altered from full PNG's to small webp files, has the desired effect. Outside of that the webpage scored green accross the board as well.
+During some additional testing using the Lighthouse functionality in the Chrome devtools it was confirmed that the changes to the images on the website, being altered from full PNG's to small webp files, has the desired effect. The website performs well but is somewhat low on performance on the "Maps" page. This is to be expected however because there are multiple images to load as opposed to one or two on the other pages.
 
-![screenshot of Lighthouse testing](assets/images/testing/lighthouse.png)
+- Homepage
+
+![screenshot of lightouse results index](assets/images/testing/lighthouse-index.png)
+
+- Confirmaiton page
+
+![screenshot of lightouse results confirm page](assets/images/testing/lighthouse-confirm.png)
+
+- Tutorial page
+
+![screenshot of lightouse results tutorial](assets/images/testing/lighthouse-tutorials.png)
+
+- Maps page
+
+![screenshot of lightouse results maps](assets/images/testing/lighthouse-maps.png)
 
 [**Go Back to README**](README.md)
