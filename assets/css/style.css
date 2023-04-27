@@ -901,5 +901,24 @@ footer {
     #maps-overview {
         width: 100%;
     }
+}
+/* responsive design extremely tiny screens <350px width */
+@media screen and (max-width: 350px) {
+        #logo-text {
+        margin-left: 10px;
+    }
 
+    #menu {
+        font-size: 80%;
+        left: 0;
+    }
+
+    #fname, #lname, #email {
+        font-size: 50%;
+    }
+
+    /* signup confirmation page */
+    #confirm-header {
+    top: 43%;
+    }
 }

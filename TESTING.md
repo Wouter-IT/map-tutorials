@@ -31,6 +31,10 @@ Also note that having an Ad-blocker active may cause errors in the console due t
 
 ![screenshot ad blocker console error](assets/images/testing/adblocker-errors.png)
 
+Last but not least, in the deployed verison of the site the eroor below pops up. This is cause by github.io disabled support for FLoC by default. It does not influence website performance in any way according to [PositionIsEverything](https://www.positioniseverything.net/error-with-permissions-policy-header-unrecognized-feature-interest-cohort./). The error message can be prevented by disabling FLoC in Chrome.
+
+![screenshot floc console error](assets/images/testing/floc-errors.png)
+
 
 ## Responsiveness
 
