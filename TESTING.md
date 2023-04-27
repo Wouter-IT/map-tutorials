@@ -48,7 +48,7 @@ Last but not least, in the deployed version of the site the error below pops up.
 | Width       | 320px    | 360px   | 375px    | 390px         | 768px     | 820px    | 950 to 1300px   | 1920px          | 2560px          | 4000px          |
 
 During testing on a wide variety of screen sizes it was noted that the website degrades in quality in screens smaller than 350px and wider than 4k. The website remains usuable and its structural integrity mostly intacts. However, some elements start to position in strange places as illustraded below.
-
+ 
 ### Above 4k Screens
 The main issue is that the footer move up from the bottom of the screen. Please consult the [Unresolved bugs](<#unresolved>) section for suggestions on how this could be addressed.
 
